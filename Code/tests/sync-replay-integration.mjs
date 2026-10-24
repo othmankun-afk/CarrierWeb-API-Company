@@ -1,0 +1,58 @@
+import {readFile,writeFile,mkdir,mkdtemp} from 'node:fs/promises';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {apiRoot,execute,phpArgs} from '../service/runtime.mjs';
+import {localDependencies} from '../tools/add-suite-client.mjs';
+import {recoverLocal} from '../tools/recover-local-sync.mjs';
+const runtime=process.argv[2];assert.ok(path.isAbsolute(runtime||''));
+await mkdir(path.join(apiRoot,'test-results'),{recursive:true});const parent=await mkdtemp(path.join(apiRoot,'test-results/sync-replay-'));
+let checks=0,sql=false,deps,plan,report={result:'FAIL',suite:'synchronization-local-replay',realEaiCalls:0,actualOtherMachineTested:false,filesDeleted:0};
+const check=(value,label)=>{assert.ok(value,label);checks++;};
+try {
+    const created=await execute(process.execPath,[path.join(apiRoot,'tests/replication-package.mjs'),'--child'],JSON.stringify({parent,php:path.join(runtime,'php/php.exe'),mysqld:path.join(runtime,'mysql/bin/mysqld.exe'),sdkDirectory:path.join(runtime,'EAI'),clients:2}),240000,apiRoot);
+    check(created.result==='PASS'&&created.successfulFictitiousClients===2,'TWO_NEW_CLIENTS_ADDED');
+    const planFile=path.join(created.directory,'service-plan.json');plan=JSON.parse(await readFile(planFile));deps=localDependencies();
+    const client=plan.clients[0],other=plan.clients[1],secrets=await deps.readSecrets(plan.directory),connection=secrets.clients[client.tenant].publisherConnection;
+    await writeFile(path.join(plan.directory,'SYNC-FICTITIOUS-ONLY.json'),'{"fictitiousOnly":true}',{flag:'wx'});
+    const original=JSON.parse(await readFile(path.join(client.directory,'pending-capture.json')));
+    function retime(value){if(Array.isArray(value))return value.map(retime);if(value&&typeof value==='object')return Object.fromEntries(Object.entries(value).map(([k,v])=>[k,retime(v)]));return typeof value==='string'&&/^20\d{2}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$/.test(value)?'2020-01-01 00:01:30':value;}
+    const capture=retime(original);capture.bundle.capturedUtc='2020-01-01 00:02:00';
+    for(const part of ['positions','canbushistory'])capture.bundle.feeds[part][0].ID='90071992547409939999';
+    capture.bundle.feeds.telemetry=Array.from({length:9},(_,i)=>({...capture.bundle.feeds.telemetry[0],ID:'90071992547409931'+String(i).padStart(3,'0'),TelemetryType:'60',Value0:'0'}));
+    capture.cursors={positions:{'0':'2'},canbushistory:'2',telemetry:{'0':'2'},wiredtelemetry:{'0':'0'}};
+    await deps.startSql(plan,secrets);sql=true;
+    await execute(plan.php,phpArgs(plan.php,path.join(apiRoot,'tests/sync-replay-fixture.php')),JSON.stringify({fictitiousOnly:true,directory:plan.directory,connection,tenant:client.tenant}));
+    const before=await deps.database(plan,connection,'inventory',{tenant:client.tenant}),otherBefore=await deps.database(plan,secrets.clients[other.tenant].publisherConnection,'inventory',{tenant:other.tenant});
+    const review={expectedGeneration:before.state.generation,expectedStatus:before.state.status,expectedLastAttemptUtc:before.state.lastAttemptUtc,reason:'LOCAL_PENDING_CAPTURE_REPLAY'};
+    const payload={tenant:client.tenant,capture,ruleProfilePath:client.ruleProfilePath,ruleProfileSha256:client.ruleProfileSha256,review};
+    await assert.rejects(deps.database(plan,connection,'accept',payload),/source_stale/);checks++;
+    await assert.rejects(deps.database(plan,connection,'replay-pending',{...payload,review:{...review,expectedGeneration:99}}),/suite_local_replay_state_changed/);checks++;
+    const obsolete=structuredClone(capture);obsolete.bundle.capturedUtc='2020-01-01 00:00:00';
+    await assert.rejects(deps.database(plan,connection,'replay-pending',{...payload,capture:obsolete}),/suite_local_replay_wrong_attempt/);checks++;
+    const future=structuredClone(capture);future.bundle.capturedUtc='2099-01-01 00:00:00';
+    await assert.rejects(deps.database(plan,connection,'replay-pending',{...payload,capture:future}),/source_from_future/);checks++;
+    const regressed=structuredClone(capture);regressed.cursors.telemetry={'0':'0'};
+    await assert.rejects(deps.database(plan,connection,'replay-pending',{...payload,capture:regressed}),/suite_cursor_regressed/);checks++;
+    const unchanged=await deps.database(plan,connection,'inventory',{tenant:client.tenant});check(JSON.stringify(unchanged)===JSON.stringify(before),'REFUSED_REPLAYS_CHANGED_NOTHING');
+    await deps.stopSql();sql=false;
+    await writeFile(path.join(client.directory,'pending-capture.json'),JSON.stringify(capture));
+    let transports=0;const isolated={...deps,collect:async()=>{transports++;throw Error('UNEXPECTED_REAL_TRANSPORT');}};
+    const recovered=await recoverLocal(planFile,{replayLocal:true,tenant:client.tenant},isolated);
+    check(recovered.mode==='LOCAL_CAPTURE_REPLAY'&&recovered.eaiCalls===0&&transports===0,'NO_TRANSPORT_FOR_REPLAY');
+    check(recovered.results[0].capturedUtc===capture.bundle.capturedUtc&&recovered.results[0].freshnessAsserted===false,'OLD_TIME_NOT_RELABELED_FRESH');
+    await deps.startSql(plan,secrets);sql=true;
+    const after=await deps.database(plan,connection,'inventory',{tenant:client.tenant}),otherAfter=await deps.database(plan,secrets.clients[other.tenant].publisherConnection,'inventory',{tenant:other.tenant});
+    check(after.state.generation===before.state.generation+1&&!after.state.inFlight,'PUBLISHED_NEW_GENERATION');
+    check(after.state.capturedUtc===capture.bundle.capturedUtc,'ORIGINAL_CAPTURE_TIME_PRESERVED');
+    check(after.history.telemetry.rows===before.history.telemetry.rows+9,'ALL_NINE_RAW_EVENTS_RETAINED');
+    for(const endpoint of ['positions','canbus'])check(after.history[endpoint].rows===before.history[endpoint].rows+1,'HISTORY_APPENDED_'+endpoint);
+    const cursorShape=value=>value&&typeof value==='object'?Object.fromEntries(Object.entries(value).sort(([a],[b])=>a.localeCompare(b)).map(([key,item])=>[key,cursorShape(item)])):value;
+    check(JSON.stringify(cursorShape(after.state.cursors))===JSON.stringify(cursorShape(capture.cursors)),'CURSORS_ADVANCED_ONLY_TO_RECEIVED_PAGE');
+    check(JSON.stringify(otherBefore)===JSON.stringify(otherAfter),'OTHER_CLIENT_UNCHANGED');
+    await assert.rejects(deps.database(plan,connection,'replay-pending',payload),/suite_dispatch_required|suite_local_replay_state_changed/);checks++;
+    await deps.stopSql();sql=false;
+    await assert.rejects(recoverLocal(planFile,{replayLocal:true,tenant:other.tenant},isolated),/LOCAL_CAPTURE_WRONG_ATTEMPT/);checks++;
+    check(transports===0,'NO_HIDDEN_EAI_CALL');
+    report={...report,result:'PASS',checks,newFictitiousClients:2,rawHistoryPreserved:true,tenantIsolationVerified:true,staleTimeNotFalsified:true};
+} catch(e){report.category=String(e.message).split('\n')[0];process.exitCode=1;}
+finally {if(sql){try{await deps.stopSql();}catch{report.shutdownUnconfirmed=true;process.exitCode=1;}}report.checks=checks;report.utc=new Date().toISOString();await writeFile(path.join(parent,'RESULT.json'),JSON.stringify(report,null,2),{flag:'wx'});console.log(JSON.stringify({...report,reportPath:path.join(parent,'RESULT.json')}));}

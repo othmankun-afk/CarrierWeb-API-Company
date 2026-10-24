@@ -1,0 +1,2328 @@
+{
+  "profile": "CW_VEHICLES_PORTABLE_WINDOWS_RECETTE_V3",
+  "createdUtc": "2026-10-21T08:44:18.708Z",
+  "files": [
+    {
+      "path": "Code/src/Api.php",
+      "bytes": 20385,
+      "sha256": "c71c2b8ff08ed89d7820b3f8ce95daa8a8caa327fb03de0bc727363e7d8fd30f",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/Bootstrap.php",
+      "bytes": 16578,
+      "sha256": "c982d57f2b14dbe9cfd2fb0d9ae78053231c4c71dda9e9eab907901619efc32f",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/CarrierwebResponse.php",
+      "bytes": 3403,
+      "sha256": "1b5a036472b206e1cb9bef54568096b580a43b365109c18303e2b48dec7f2dc9",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/Contract.php",
+      "bytes": 7345,
+      "sha256": "e627839aa23054289b1ec4e1b30d7d5f616d02ef84ff8fef52028d1087d3b2b2",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/CompactStateJson.php",
+      "bytes": 1803,
+      "sha256": "36130b9e1a6476b8ee7d96cda480a6a67fefc79d2222bc6b41ccd5f1fad4778f",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/EaiCurrentVehicleSignals.php",
+      "bytes": 15871,
+      "sha256": "973f487eb51775346386c56a6724d0c5293f46aeff29be37256404f86ec2f180",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/EaiSnapshotVehiclesRepository.php",
+      "bytes": 4152,
+      "sha256": "9e9b87b3514a1179e1c28822f290928998c676dac55caa3907d06a08c2b649c3",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/EaiSuiteMapping.php",
+      "bytes": 7772,
+      "sha256": "fa9e168f8e4ea4ca0af0968ad4904ad4983019c61fb7a4ddc8542779f8e42ded",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/EaiSuiteRepository.php",
+      "bytes": 2971,
+      "sha256": "db1ae9d7118ea349b243d35ad3ba5cabb1f93b376fd3e47381c81ee8a4363c39",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/EaiTelemetryRepository.php",
+      "bytes": 2892,
+      "sha256": "34e0a59ae0e66b860cf73793be1ab63904e7bacbda944efc498a22c1ac9115f5",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/EaiVehicleMapping.php",
+      "bytes": 16476,
+      "sha256": "b5b6fa2fac78fb2706e09e11ce8e01e2432069c9d9d07fe02bd24f44b4c75608",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/EaiVehicleSignals.php",
+      "bytes": 7537,
+      "sha256": "0fec3b2e7161e6b43157d742d88827fb0865bfc69f6415c6655a1f136c57eac4",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/EaiVehicleState.php",
+      "bytes": 4549,
+      "sha256": "303538615455e0828623cef916f27e721f93a17d797081488eb447b5e6eb5d1c",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/LegacyVehicleCounterPolicy.php",
+      "bytes": 2936,
+      "sha256": "e9684ce5f3d1d8058a8ccea425bc8c9555be1044f6b418421205e2ef6fad3f45",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/MysqliDatabase.php",
+      "bytes": 4142,
+      "sha256": "3819263a97b61b7231c860ca7505137bd56f1249db9c1575e9d85ec629d4b3bf",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/PublishedVehiclesRepository.php",
+      "bytes": 4118,
+      "sha256": "8be6e31657ff0786e32923322ddd521b10eff8cf71698fcf6f38e87c71e7870c",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/Repository.php",
+      "bytes": 6462,
+      "sha256": "98d20bcc866b1df06e46972a02ab15af008c34d0f353d9eb83164f7f036d95d4",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/SafeAudit.php",
+      "bytes": 1410,
+      "sha256": "77308b146c5566c4815d4999adfcbe70a187c3cbd5b6c99b344929433512e7b0",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/StrictJson.php",
+      "bytes": 4556,
+      "sha256": "55641bb1cfa1ab5c60c879876cf61efd4772f77857658e4cf179e902cd509f7a",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/SuiteHistoryPolicy.php",
+      "bytes": 3152,
+      "sha256": "6c0fe23b09f855b047c25864e254d82c91f3bb5870b1ed0c589f3e4bfd16bc86",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/SuiteLiveRepository.php",
+      "bytes": 7948,
+      "sha256": "2609acf5f8b9d227ca57f5a588d1e1e707894f7607abda246b321379e3041081",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/SuiteServiceStore.php",
+      "bytes": 21022,
+      "sha256": "ce7bb15fd7d03445038a66c2f25bfccc589bff6aa96e498f01fbd7c5ca7eb664",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/VehiclesLegacyCompatibility.php",
+      "bytes": 3064,
+      "sha256": "b215991af1bb0cc9910e3b9aa092052e57f0e0f5bed91d0bbad06f366e19f2d9",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/VehiclesPublisher.php",
+      "bytes": 5376,
+      "sha256": "0b893061fcb66ed182f009ba8fa0ef7a1183261d0cbc36031a0ce442e11cdb7e",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/VehiclesServiceDiagnostic.php",
+      "bytes": 3600,
+      "sha256": "13656646cd15407ab5d093a5ba2e06dd5e6ab047b96d477aac45b658da361b08",
+      "group": "application"
+    },
+    {
+      "path": "Code/public/index.php",
+      "bytes": 2537,
+      "sha256": "4f0187736112bb866ee7843e512db51190ab155d39941b0ab5ca3427588d96dc",
+      "group": "application"
+    },
+    {
+      "path": "Code/public/router.php",
+      "bytes": 123,
+      "sha256": "b9170db9d008b2a6e11b55a7f492ba0a2be9827cf90869f71ac65d4c6ee78a66",
+      "group": "application"
+    },
+    {
+      "path": "Code/compat/auth-missing.json",
+      "bytes": 1812,
+      "sha256": "b65cdc9beddfbc872c0c5dca6968c5ab88376d98126e1bf032c40074d02613bf",
+      "group": "application"
+    },
+    {
+      "path": "Code/compat/documentation.json",
+      "bytes": 2059,
+      "sha256": "fce4bf8c82743fe2e627dbe5c321470aa2a5cb9b0d615295d29856adb5401c25",
+      "group": "application"
+    },
+    {
+      "path": "Code/database/suite_live.sql",
+      "bytes": 2327,
+      "sha256": "b4f0d229e0b0b7f1e8ff3e23a37d1d12c20f36987b67621ae9737d8497d42846",
+      "group": "application"
+    },
+    {
+      "path": "Code/configuration/sdk-runtime-pins.json",
+      "bytes": 16730,
+      "sha256": "2fb47091d7d91c3b53ae821cbda49f26659379031398d78859e803e8681d46ff",
+      "group": "application"
+    },
+    {
+      "path": "Code/configuration/capacity-input.template.json",
+      "bytes": 1871,
+      "sha256": "5487525f0c591f2ea380079d2fae77223c05acb43e9aea0e16992ae584f18956",
+      "group": "application"
+    },
+    {
+      "path": "Code/service/runtime.mjs",
+      "bytes": 5421,
+      "sha256": "b76008fbed10467651d08b458ee30e0e23247904a2839db41afd9ff29c31b2ea",
+      "group": "application"
+    },
+    {
+      "path": "Code/service/suite-runtime.mjs",
+      "bytes": 1943,
+      "sha256": "b589101a41fc31b56176681ac86c1130008a23ef0cbfa069bf5381623453eec4",
+      "group": "application"
+    },
+    {
+      "path": "Code/service/suite-database.php",
+      "bytes": 7216,
+      "sha256": "e3223255c05c8bb6b0476fe58ea8f0bdbe7e1c4734b981c552d1f8ecfc862bcb",
+      "group": "application"
+    },
+    {
+      "path": "Code/service/collect-suite-eai.php",
+      "bytes": 7517,
+      "sha256": "36f26e966c0918efb47fb4da68326a7df4b8d6e5f88c733b1f54e9094bfb0216",
+      "group": "application"
+    },
+    {
+      "path": "Code/service/suite-eai-policy.php",
+      "bytes": 7652,
+      "sha256": "f3eca96edd54361fc78db9da79449f8e53772ac7f07977d8651d112d767b1afb",
+      "group": "application"
+    },
+    {
+      "path": "Code/service/sdk-date-normalization.php",
+      "bytes": 1017,
+      "sha256": "cb9b294d0a2f6abaee0ad75386d7b15f999507c0a4bc5012e4e636cdc7d7165c",
+      "group": "application"
+    },
+    {
+      "path": "Code/service/suite-worker.mjs",
+      "bytes": 7813,
+      "sha256": "7442b472bde46661902af97b7769af79367b572596fd83468958fb53a38b29e9",
+      "group": "application"
+    },
+    {
+      "path": "Code/service/suite-supervisor.mjs",
+      "bytes": 6433,
+      "sha256": "2a0d6b9682de8244210cb5528baaf3bc1a5a008fdeaff4eb635d32cd44c3c5ca",
+      "group": "application"
+    },
+    {
+      "path": "Code/service/supervisor-policy.mjs",
+      "bytes": 1416,
+      "sha256": "72e2f1aa75f1216b5fc7c8a6c5428573f3ab299fbea9276ef4d8ec1e87ada1f5",
+      "group": "application"
+    },
+    {
+      "path": "Code/service/status-writer.mjs",
+      "bytes": 1876,
+      "sha256": "1b0401d61cc0902667a0c39419654d1111278ad4fca11ea9b56802d63de322e3",
+      "group": "application"
+    },
+    {
+      "path": "Code/service/Control-Suite.ps1",
+      "bytes": 5338,
+      "sha256": "764ce2654f96090496d6e997cc4347d58eee76cfc95f4bf950e6026b0197b37d",
+      "group": "application"
+    },
+    {
+      "path": "Code/service/Start-Suite-Supervisor.ps1",
+      "bytes": 649,
+      "sha256": "0adcabacfc9e8d0fbbbe0afb55ea1dab1096c936d1759551ea171f25eb96e72e",
+      "group": "application"
+    },
+    {
+      "path": "Code/service/Install-Suite-Autostart.ps1",
+      "bytes": 3317,
+      "sha256": "1c3278bf2103b5e2a8e3f290902020a79abb4dfac5a839d0bd7f872445e273c0",
+      "group": "application"
+    },
+    {
+      "path": "Code/service/private-folder.ps1",
+      "bytes": 810,
+      "sha256": "9825c7a7828bb889b3cd7de2e1d2319c24cf365e7337e165e76c658b8778490b",
+      "group": "application"
+    },
+    {
+      "path": "Code/service/secrets.ps1",
+      "bytes": 1034,
+      "sha256": "1e24647d32640c324b5055afe9286e660a89aaa3f4dfa91802e857953b8b1d13",
+      "group": "application"
+    },
+    {
+      "path": "Code/service/local-loopback-preflight.php",
+      "bytes": 862,
+      "sha256": "2556fa8eecabca829081f42d7a4a767357b6f771fd837952235cb8dc95410a70",
+      "group": "application"
+    },
+    {
+      "path": "Code/tools/add-suite-client.mjs",
+      "bytes": 7230,
+      "sha256": "94c573dfc4f5f33fc72ce9e4c3d0f13216c548302722831544a0cf2325915ee2",
+      "group": "application"
+    },
+    {
+      "path": "Code/tools/add-suite-client-core.mjs",
+      "bytes": 15284,
+      "sha256": "72c4fa5bc733fec4b9866a56b9e5125322eea13ea99feb3755544b8cbb27b4b5",
+      "group": "application"
+    },
+    {
+      "path": "Code/tools/Add-Suite-Client.ps1",
+      "bytes": 2517,
+      "sha256": "fed9116807c0f17366e25ee5f96927e77b7d2dab15206211722721b56bd6e17a",
+      "group": "application"
+    },
+    {
+      "path": "Code/tools/suite-registry.mjs",
+      "bytes": 3889,
+      "sha256": "47196ee9d2d5807ac206066785f9461f26a239442d79fd96cafc4aff85a3b961",
+      "group": "application"
+    },
+    {
+      "path": "Code/tools/initialize-empty-suite.mjs",
+      "bytes": 11739,
+      "sha256": "6c7845c3aca0fa3587c019aeecec693605a21a527a2d5fbed99057e028dfc649",
+      "group": "application"
+    },
+    {
+      "path": "Code/tools/build-replication-package.mjs",
+      "bytes": 7294,
+      "sha256": "9383f6afa896b099546f1ddd30aa17edd751aa386825b278564cd23c5fc1e606",
+      "group": "application"
+    },
+    {
+      "path": "Code/tools/package-archive.ps1",
+      "bytes": 1497,
+      "sha256": "66ad0a99b91fcce78e3dec991ced6cc7684112094e7877b08f488ecf6881a322",
+      "group": "application"
+    },
+    {
+      "path": "Code/tools/capacity-plan.mjs",
+      "bytes": 16725,
+      "sha256": "7ff5cf8fd0d0d8c99659ce892b5fe3026e7ab7f2c9c3624e96f8ff0dc60cb7c2",
+      "group": "application"
+    },
+    {
+      "path": "Code/tools/test-local-delivery.mjs",
+      "bytes": 5981,
+      "sha256": "f1a311286b113522772a6c29572ae0502363e70cc4fca82a13b3a69cbedff821",
+      "group": "application"
+    },
+    {
+      "path": "Code/tests/replication-package.mjs",
+      "bytes": 11751,
+      "sha256": "5c8420128de77f61c822745e84a2cf7fd2749a1646cca43833c561827de17d5f",
+      "group": "application"
+    },
+    {
+      "path": "Code/tests/replication-onboarding-source.php",
+      "bytes": 2389,
+      "sha256": "c32323b2ac9ff54716adab5ca1d5e07a4266816d1f825c49174ce82a7e9a5e01",
+      "group": "application"
+    },
+    {
+      "path": "Code/tests/replication-sql-isolation.php",
+      "bytes": 1467,
+      "sha256": "1bd489f53b9d0f621e80d53953364f67cb4169988560adcf9548489bbf3e338c",
+      "group": "application"
+    },
+    {
+      "path": "Code/tests/capacity-plan.mjs",
+      "bytes": 12031,
+      "sha256": "c676d8fd93db7152d0014e812d0cbb08641a624d67806a39e4d16dee96088efa",
+      "group": "application"
+    },
+    {
+      "path": "Code/docs/REPLICATION_WINDOWS_RECETTE.md",
+      "bytes": 298,
+      "sha256": "fee1021cce4a1a5ba9e0640ad08a1ab64f76f1dc51f1643048108db31e44af37",
+      "group": "application"
+    },
+    {
+      "path": "Code/docs/CAPACITY_INPUTS.md",
+      "bytes": 7892,
+      "sha256": "198003758ca84de1f7f723abef33f5901aa7cae886640fa0c79a9aa1969bb9e8",
+      "group": "application"
+    },
+    {
+      "path": "Code/docs/EXPLOITATION_DECISION.md",
+      "bytes": 294,
+      "sha256": "70f0ea0540587619697f9be52b897f3f198352ad1ce5a31749214423a655a6ec",
+      "group": "application"
+    },
+    {
+      "path": "Code/Installation/Lancer.ps1",
+      "bytes": 7701,
+      "sha256": "dcc9c946823c0d78fe7627db26c422a2038581724ab258eb05fcab02c2bc420e",
+      "group": "application"
+    },
+    {
+      "path": "Code/Installation/01-Installer.cmd",
+      "bytes": 100,
+      "sha256": "9c83580a2a90584fc31334fe6827b2b7f78ac4cf8054d754b586733ca53a4826",
+      "group": "application"
+    },
+    {
+      "path": "Code/Installation/02-Demarrer.cmd",
+      "bytes": 118,
+      "sha256": "671907b6111d78ad65e6942dbfe2b7ab4b4039a91488f4e239eaea938275179d",
+      "group": "application"
+    },
+    {
+      "path": "Code/Installation/03-Statut.cmd",
+      "bytes": 119,
+      "sha256": "9fbc715a2a48dd525ac1270f49be6a6584ac0e77932d56e571c964e873332665",
+      "group": "application"
+    },
+    {
+      "path": "Code/Installation/04-Ajouter-client.cmd",
+      "bytes": 102,
+      "sha256": "ee6588ab46a8d8c724d6c867e8e642e9d3a7ac75ac8cf0a3daf20bc526d58067",
+      "group": "application"
+    },
+    {
+      "path": "Code/Installation/05-Tester.cmd",
+      "bytes": 97,
+      "sha256": "45122b7111dd083ec28b9944ef4edbc2c3994dc16380ab5aa07f6077f2b569e4",
+      "group": "application"
+    },
+    {
+      "path": "Code/Installation/06-Arreter.cmd",
+      "bytes": 117,
+      "sha256": "8e464e1c9833fc2896ca765a8de9a1ed2db727e8403a842a0ecb507a1fb99e7f",
+      "group": "application"
+    },
+    {
+      "path": "Code/tests/delivery-launchers.mjs",
+      "bytes": 6589,
+      "sha256": "ebad356c9f8886fc8fe38a157823b3a9d9f88dc0dc98777f7331e3eb09aa8212",
+      "group": "application"
+    },
+    {
+      "path": "Code/docs/QUICKSTART_COLLEGUE.md",
+      "bytes": 288,
+      "sha256": "7f579ee1ccb925912594c693821f069ed38b8040efb4f4627de52b7fc9438e26",
+      "group": "application"
+    },
+    {
+      "path": "Code/docs/API_CONTRACT.md",
+      "bytes": 10601,
+      "sha256": "545c72d357ffd1d49a221e7dbba1fd0a5b2fc86f75491502cb20233b31a6e6e0",
+      "group": "application"
+    },
+    {
+      "path": "Code/service/deployment-config.mjs",
+      "bytes": 4477,
+      "sha256": "2f2dd78b11182f7659bf94b43c8f6a7e3baf18b924938a37117fcd3d83516122",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/DeploymentGate.php",
+      "bytes": 3869,
+      "sha256": "18c769c5cb1494add656a7eae48cd5a7bf1b37b8c6530ebfb68c207a64af44c5",
+      "group": "application"
+    },
+    {
+      "path": "Code/tests/deployment-config.mjs",
+      "bytes": 3198,
+      "sha256": "6ed4d91e49a9ddfd6acaaf9e07137c403c42c175901589e1a9c1fb339360ca0d",
+      "group": "application"
+    },
+    {
+      "path": "Code/tests/deployment-gate.php",
+      "bytes": 2764,
+      "sha256": "e6fc6940a1e0260ab82157cde8aefc921a34dfde2e98571d0eefdfcbb8657e0c",
+      "group": "application"
+    },
+    {
+      "path": "Code/docs/SERVER_CONFIGURATION.md",
+      "bytes": 304,
+      "sha256": "ad643c0cf05662c8414bd9c70540424e5106cf8cb74567800822405208c073e3",
+      "group": "application"
+    },
+    {
+      "path": "Code/service/Install-Server-Startup.ps1",
+      "bytes": 9782,
+      "sha256": "8a4d9c8ea05fbcecd69c16e97c32c799e6a1f0bf834eff45a762358fc36586ac",
+      "group": "application"
+    },
+    {
+      "path": "Code/docs/SERVER_STARTUP_WINDOWS.md",
+      "bytes": 294,
+      "sha256": "8ced41284f1e364ac88451ec08f77cf30fe6eb6daabb33c77a79f0b008704d1d",
+      "group": "application"
+    },
+    {
+      "path": "Code/tests/server-startup-validation.ps1",
+      "bytes": 4503,
+      "sha256": "184b8acda87439d33096fcad96440d8eb926fa9fea37cc7643fcb79ddf24b777",
+      "group": "application"
+    },
+    {
+      "path": "Code/tests/server-startup-static.mjs",
+      "bytes": 2654,
+      "sha256": "915587cc78481383a9083d67825a53f3a9c5474b2708fc137b025eb36194f4d4",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/RequestProtection.php",
+      "bytes": 4445,
+      "sha256": "696e39865c68539a54a7981f9e277b0851e57717fc8c42c4849bed7345dc9179",
+      "group": "application"
+    },
+    {
+      "path": "Code/src/SuiteCapacityPolicy.php",
+      "bytes": 5913,
+      "sha256": "868b93dd3d3b0addc21800d0f1b555d248e0bffd80b56a3f8893a0e51f321e31",
+      "group": "application"
+    },
+    {
+      "path": "Code/tests/request-protection.php",
+      "bytes": 7290,
+      "sha256": "a9e8732057404ec6f2b13526299f8e72d99d9e55b1b9d7e55f53d4a03ba66e7f",
+      "group": "application"
+    },
+    {
+      "path": "Code/tests/request-protection-worker.php",
+      "bytes": 840,
+      "sha256": "abc1f1b43d9d7b73c110da6d6c82d1db2f7809949a9a9dfa549427c9cd76aa93",
+      "group": "application"
+    },
+    {
+      "path": "Code/tests/suite-capacity-policy.php",
+      "bytes": 5752,
+      "sha256": "1e0e32c719ff1ca221fa5597b386735dc8212b958f1a27d1d9be530fddf0508a",
+      "group": "application"
+    },
+    {
+      "path": "Code/tests/deployment-review.php",
+      "bytes": 3389,
+      "sha256": "7bab38c8b77f18af1fb56e25ff192d712eb124f12595ca1ad11c204688c0f549",
+      "group": "application"
+    },
+    {
+      "path": "Code/tests/deployment-review.mjs",
+      "bytes": 1791,
+      "sha256": "726b676d3b3af28fb95d35d1cc34204c2becbdf2e379b62d79f4acb4755e47e2",
+      "group": "application"
+    },
+    {
+      "path": "Code/tools/configure-suite-capacity.mjs",
+      "bytes": 11848,
+      "sha256": "8aba3db8e248fae0be407733167566d37f531707b940b71209557ace6ad2a244",
+      "group": "application"
+    },
+    {
+      "path": "Code/tools/validate-suite-capacity.php",
+      "bytes": 850,
+      "sha256": "edd9f5f7749ef0acf7955efbaf500649de23754800dbf047862255246a1ad586",
+      "group": "application"
+    },
+    {
+      "path": "Code/tools/capacity-owner.ps1",
+      "bytes": 723,
+      "sha256": "e16bc77df511554833bd977af5a3a5952b8a1053638667d58688f883f8129df5",
+      "group": "application"
+    },
+    {
+      "path": "Code/docs/CAPACITY_POLICY.md",
+      "bytes": 294,
+      "sha256": "70f0ea0540587619697f9be52b897f3f198352ad1ce5a31749214423a655a6ec",
+      "group": "application"
+    },
+    {
+      "path": "Code/tests/configure-suite-capacity.mjs",
+      "bytes": 12617,
+      "sha256": "baa04c3943155f5d76811a814a65d6baee0409cb8218559651ea85961dda769b",
+      "group": "application"
+    },
+    {
+      "path": "Code/tests/storage-recovery.mjs",
+      "bytes": 11824,
+      "sha256": "c09f258d555ba9bc6f54de47746c2ff78401d07388759a5fce788e038a48bdd6",
+      "group": "fictitious-acceptance-fixture"
+    },
+    {
+      "path": "Code/tests/storage-recovery.php",
+      "bytes": 13382,
+      "sha256": "2c572ac2e3f0575d5a2dd21622cac84df59b7758472e308e9855fcd702523dea",
+      "group": "fictitious-acceptance-fixture"
+    },
+    {
+      "path": "Code/demo/fixtures.php",
+      "bytes": 2302,
+      "sha256": "7b719f0aede4fe447e5bfbd2d6f5d053600b4710b1eb9573f6ee59f93ac174ad",
+      "group": "fictitious-acceptance-fixture"
+    },
+    {
+      "path": "Code/tests/unit.php",
+      "bytes": 15896,
+      "sha256": "a9ab91f48780e71aef925cf1161215e021b64b41e51c136f2eb2427b0642253e",
+      "group": "offline-contract-regression"
+    },
+    {
+      "path": "Code/tests/eai-current-vehicle-signals.php",
+      "bytes": 14287,
+      "sha256": "89e227294d9150d9280ec863db9dc7e155d36e392f8277232a391d8b4297d5f5",
+      "group": "offline-contract-regression"
+    },
+    {
+      "path": "Code/tests/eai-suite.php",
+      "bytes": 6278,
+      "sha256": "4801af56ae6cb1b80cd51c166fcd95ce465e31f02dadd1b99d84519c5ec70ec0",
+      "group": "offline-contract-regression"
+    },
+    {
+      "path": "Code/tests/suite-api-policy.php",
+      "bytes": 7216,
+      "sha256": "03c7a3e9605b8261b70aaf0f6322716e8153c0a06ebdaa741da7cb86d976a175",
+      "group": "offline-contract-regression"
+    },
+    {
+      "path": "Code/tests/legacy-vehicle-counter-policy.php",
+      "bytes": 3703,
+      "sha256": "65456ce62b550d8364e6bc167b8e6c702e0551cee4abc6597cb3ff7a2876f7a1",
+      "group": "offline-contract-regression"
+    },
+    {
+      "path": "Code/tests/suite-transport-policy.php",
+      "bytes": 2813,
+      "sha256": "c6739394484dc9de400450af2cf6487ce9cce793c90a0c78fa36d80df85061d2",
+      "group": "offline-contract-regression"
+    },
+    {
+      "path": "Code/tests/suite-history-policy.php",
+      "bytes": 3433,
+      "sha256": "efa156809d309ef3fe6858c4b1ef2d070aaba637d8000cf68469ded2b177f4d7",
+      "group": "offline-contract-regression"
+    },
+    {
+      "path": "Code/tests/json-integrity.php",
+      "bytes": 10671,
+      "sha256": "8f7adcc00ee13fa7a96660242b3531881328c7608e6b9f37558232011522e069",
+      "group": "offline-contract-regression"
+    },
+    {
+      "path": "Code/tests/recovery-profile.fictitious.json",
+      "bytes": 3322,
+      "sha256": "021d2d0c24429b7b7c31e8ab4755ae9cad832ce06da8f8ba2dbe76c3d9d5f70c",
+      "group": "fictitious-acceptance-fixture"
+    },
+    {
+      "path": "Database/suite_live.sql",
+      "bytes": 2327,
+      "sha256": "b4f0d229e0b0b7f1e8ff3e23a37d1d12c20f36987b67621ae9737d8497d42846",
+      "group": "schema"
+    },
+    {
+      "path": "Runtime/php/php.exe",
+      "bytes": 142336,
+      "sha256": "4043721b2d6a3d0e68d13b3daeab0a2c842b9e054ec4098b80e1aeab6a8456f3",
+      "group": "php-runtime"
+    },
+    {
+      "path": "Runtime/php/php-cgi.exe",
+      "bytes": 69120,
+      "sha256": "9aceb32fddea7bb95da6f5406b5b279b9f5362048b07091d5c92fda9b9733b0f",
+      "group": "php-runtime"
+    },
+    {
+      "path": "Runtime/php/php8ts.dll",
+      "bytes": 9074176,
+      "sha256": "80b45e119d82ac7b1ef38a8f630c1b36cca299b2ed6be612f2c6d9c0bd56c903",
+      "group": "php-runtime"
+    },
+    {
+      "path": "Runtime/php/license.txt",
+      "bytes": 3272,
+      "sha256": "a8ed392bc7ae8d633f72fdf900b76975d9dd7e48c74d51ed95393917dd4c5c72",
+      "group": "php-runtime"
+    },
+    {
+      "path": "Runtime/php/readme-redist-bins.txt",
+      "bytes": 30888,
+      "sha256": "878ca254c4edbb517c614f7234c694e828e2b1519f7858ff4aa696f28b182a29",
+      "group": "php-runtime"
+    },
+    {
+      "path": "Runtime/php/ext/php_mysqli.dll",
+      "bytes": 123904,
+      "sha256": "25da44f755e3dff3cc2f519bc08c5b5de361f0f9c67f23353f2657e1340e4c34",
+      "group": "php-runtime"
+    },
+    {
+      "path": "Runtime/node/node.exe",
+      "bytes": 91426304,
+      "sha256": "58e74bf02fc5bbacc41dcb8bef089961cd5bddd37830b87784e4fc624d145d1f",
+      "group": "node-runtime"
+    },
+    {
+      "path": "Runtime/node/LICENSE",
+      "bytes": 156926,
+      "sha256": "4573185d56580da2b890ba34a85a409257640f1c5632eade4300137266194d18",
+      "group": "license"
+    },
+    {
+      "path": "Runtime/mysql/bin/mysqld.exe",
+      "bytes": 28742728,
+      "sha256": "a9ef2aee214c76440348651354131d0393aa0a850ac39ed7a907292b87ba8ef1",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/bin/mysql.exe",
+      "bytes": 7896648,
+      "sha256": "9619e44222d97c53341e485e29f94791d25b1bf4274dfc4bd5196bf7b0be0fea",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/bin/mysqldump.exe",
+      "bytes": 7865424,
+      "sha256": "749c0281dae3699067d7ffa721bbe3a4657c916d2907bf278d3122c0d0ae999b",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/bin/libmecab.dll",
+      "bytes": 1839616,
+      "sha256": "60922171a1c3b43da8aab277bfa5bdaaa608681c6b752edb254134f662161473",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/bin/libsasl.dll",
+      "bytes": 646656,
+      "sha256": "d3a2902d90e37a8efdca50ef2d97f3af48dd2077380b766fd2dc0e7403f5771e",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/bin/saslSCRAM.dll",
+      "bytes": 515584,
+      "sha256": "dc3777e0e5ba28c1476fd05ba43fee76a7f77decd324c7562552a409c0de415a",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/bulgarian/errmsg.sys",
+      "bytes": 80454,
+      "sha256": "f9ae006a74226528e5bf931a35396bbda26b1fc8003380ac1647cbd35ce6b7e5",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/armscii8.xml",
+      "bytes": 5965,
+      "sha256": "b22ecbe9c92d90528ba89be003c3b8f34796c176e9ad6fe557b2e9f56363f656",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/ascii.xml",
+      "bytes": 5951,
+      "sha256": "5c116fa6a232fb9f34dcdef84d86c676c588cf9bfac08807ddfc939a6dee6d38",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/cp1250.xml",
+      "bytes": 8680,
+      "sha256": "0852b6dc61fe4414298d1b5f51d14253b603a7294346c98ecabb7c4886213341",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/cp1251.xml",
+      "bytes": 8762,
+      "sha256": "4d23ea21ee555cdb75715b008bd78802e71debe092951d5687bff298c12a3e60",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/cp1256.xml",
+      "bytes": 6014,
+      "sha256": "a755fdfb8adbd778c952f27011c4c17e44c2f286c774c46f24f2f63d326e4004",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/cp1257.xml",
+      "bytes": 9347,
+      "sha256": "1d5540e1f731688588ae169808ba87706c67e36e9a56bc6d8161689c94b55b5f",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/cp850.xml",
+      "bytes": 5951,
+      "sha256": "986b52d170928ed039d96b102653546fac79b2d90d27bad4011b630517c146b6",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/cp852.xml",
+      "bytes": 5967,
+      "sha256": "0d2e2c78cbe5e415ef46c8c57b1589628c76fed81173e4b1b6099453a63977c1",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/cp866.xml",
+      "bytes": 6058,
+      "sha256": "f6a8a191f754984e98efdbab539d47cbf85765e4f5065d5165c717ca1a250456",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/dec8.xml",
+      "bytes": 6974,
+      "sha256": "a07fa45136a2e1a17828499b8176af8304dcb83630b091f55e086de490dbf625",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/geostd8.xml",
+      "bytes": 5961,
+      "sha256": "617a809a0a51230235843728964562b20f0db25c054be0a730d43e1f26d023e5",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/greek.xml",
+      "bytes": 6173,
+      "sha256": "adb877a322d3483344ef34cda569c7ace29ab80456d66b55d2f49d7aa0948fc2",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/hebrew.xml",
+      "bytes": 5956,
+      "sha256": "ff49ac03fcf012fbc8b9d5efc3cb073808f8e352b38658359856dda965b86a5a",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/hp8.xml",
+      "bytes": 5947,
+      "sha256": "1327edc8e2c0dbcd8aef45821022a4ba019aaf65e11ffb341a87ad12bddf2ba2",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/Index.xml",
+      "bytes": 19427,
+      "sha256": "717e4e551b7bb60e141e00e6a9465712f13e6f1435ddb40c7f1792540db9498a",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/keybcs2.xml",
+      "bytes": 5974,
+      "sha256": "cb287b179bdd64da053f040b5ca176db1727626186dc17dc517bc22d82adffab",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/koi8r.xml",
+      "bytes": 5955,
+      "sha256": "fa0353066f7e72abf9f1a5135692f1b75229663d387f7d78a21a7810455a7390",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/koi8u.xml",
+      "bytes": 6977,
+      "sha256": "af8579d9523515b58be40af366e6ea5866d25e3f79b7dd199cd1f3f95be64d46",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/latin1.xml",
+      "bytes": 10255,
+      "sha256": "ec262d27ea6e35a1b7f9f4fe0a0dc96547663bf28fdf639c0ab08ee3c950b9df",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/latin2.xml",
+      "bytes": 7677,
+      "sha256": "f2ee57579fba363511a7e2d0d0825f56c7319da81e34619f162f3fa20dbe799c",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/latin5.xml",
+      "bytes": 5954,
+      "sha256": "b9d122083f7e79017bee9c076258c722e38878a1e8792f757d89a98fd38f75d9",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/latin7.xml",
+      "bytes": 7883,
+      "sha256": "b8f81ae03d65e32bb0bce251efa1b249fe8ab8529bc2ed9a65ca6960ce25c966",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/macce.xml",
+      "bytes": 8492,
+      "sha256": "e24074368045ff75807bb7e75eff44b80a595820de7d66a72c7ae40fb597df12",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/macroman.xml",
+      "bytes": 8503,
+      "sha256": "4e921288776aa6991a50b024b58af84ea25c4c35a85617ba2ba8f7a5d062c8bd",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/README",
+      "bytes": 1749,
+      "sha256": "0af62ce1ae651e980006f2e9d29bd2f24e1cd18c6a0b1914e9c437cc80e990ab",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/charsets/swe7.xml",
+      "bytes": 6975,
+      "sha256": "8c6a5c389a671df8741e9246a8e3af0f192a8547d1bc103273f5bc70b45de8a1",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/czech/errmsg.sys",
+      "bytes": 80961,
+      "sha256": "e9a85599819c4ad420be2cb6e9647ae652eb213070ff56b1fe551552ef22fe1b",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/danish/errmsg.sys",
+      "bytes": 80961,
+      "sha256": "d39acecd96e470ade2e2f0781f0552ce8f413278122f8b07068ea1ae516e9ab4",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/dictionary.txt",
+      "bytes": 25575,
+      "sha256": "d031a0f90d77595abe02112adf69a86560e3168ba379fd450176a8e070763077",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/dutch/errmsg.sys",
+      "bytes": 81981,
+      "sha256": "499d987bae1d42f4c80da5a7e1e136f328bf6d88d567436571dcf1844a0547cd",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/english/errmsg.sys",
+      "bytes": 80201,
+      "sha256": "144d08edfad7267ff688b81df80172a38f8cc705b2c080e6d8c4faa5caa8923d",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/errmsg-utf8.txt",
+      "bytes": 531225,
+      "sha256": "1a8eb1e6962553e0ed8df7994e7dc8b165f1cf066fbcd6b4acd75d67ece2b467",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/estonian/errmsg.sys",
+      "bytes": 80466,
+      "sha256": "64d74f1ce355f96ebaaff78bcc70e3e072510a31e6dee8b82ab7d41ec918c1a4",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/fill_help_tables.sql",
+      "bytes": 1083455,
+      "sha256": "4dffa60aec69d166dc85393d32fea119f03d2971e416f26388e78a25f9910d6f",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/french/errmsg.sys",
+      "bytes": 81609,
+      "sha256": "bd521ee4ad2caf2fbdf64c4dc5b3540ea4a512c3c224dd2fb7f7755c3cdc7833",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/german/errmsg.sys",
+      "bytes": 87923,
+      "sha256": "b0c0efc5f5c9c013cb229830e0f274ed92e0dac565ad7a2208a796228307dd19",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/greek/errmsg.sys",
+      "bytes": 86993,
+      "sha256": "8eb9abb4a68792e9f7b2efd38112038c7d1eb8a42d75b3efe31400ed9998beae",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/hungarian/errmsg.sys",
+      "bytes": 80843,
+      "sha256": "a895372966ea54fe061898f1dc042b400d8dff55ae8b097e87460ff2ddfaac66",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/innodb_memcached_config.sql",
+      "bytes": 3999,
+      "sha256": "a9f848f907b99799a434f3ea12b34bc8f2e86c9efbefb8bfccc145326d34e00a",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/italian/errmsg.sys",
+      "bytes": 81972,
+      "sha256": "9bded9827aec7669db0056018489e22eedc42f2eb3598d1ef59d863b19ffe0be",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/japanese/errmsg.sys",
+      "bytes": 87648,
+      "sha256": "1af7dbc5f2cf11706d9637257e28184a17ec41c61bbb510d316fbf0a1c89823d",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/korean/errmsg.sys",
+      "bytes": 83242,
+      "sha256": "7ed1360aa80dbc89a0a95344eca5c69402a395f110bbfeb8cc113b12c6ef29c9",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/mysql_security_commands.sql",
+      "bytes": 2171,
+      "sha256": "f6b0abaad2959e9927ba882b901334b932ac6b13c9e8c51714957845855835a3",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/mysql_system_tables.sql",
+      "bytes": 155441,
+      "sha256": "d1e336d681e20a1d03a2f74f29251a8df63753fabe79e51e9f135d8531f9664f",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/mysql_system_tables_data.sql",
+      "bytes": 1214,
+      "sha256": "c7f69b80e7b1cd38590537468a69e89d03f410cd5817698aaefc54d0c2c3d934",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/mysql_sys_schema.sql",
+      "bytes": 288342,
+      "sha256": "d040448a3960003b604c2a22ab84ccac6e09150adbfcd59839d2150022bafe12",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/mysql_test_data_timezone.sql",
+      "bytes": 10862,
+      "sha256": "68043e3d07dcc15e7eaa776de79732268645d3e5cf5b938c2ce08078205f3804",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/norwegian/errmsg.sys",
+      "bytes": 80272,
+      "sha256": "5621b0b4f063524d6375c424468fa64b7d77db13deb494aa7702c1e9d470347b",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/norwegian-ny/errmsg.sys",
+      "bytes": 80325,
+      "sha256": "a4ed75c0fcab0936e719329ebf688b947b8cb353673917cdd5e8121535652b4b",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/polish/errmsg.sys",
+      "bytes": 80920,
+      "sha256": "b1e55809020ed9e8db7e442efca29dc700d6a434029fcc6aea16646c826aa5be",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/portuguese/errmsg.sys",
+      "bytes": 83164,
+      "sha256": "f6f2fad37f86d24971cdbc274f694ca4f7af827fd872f02a72a38c8f260fc70f",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/romanian/errmsg.sys",
+      "bytes": 81914,
+      "sha256": "53141df853969c570ab9b16f613e2667c8272ca41c0d858876dba95d9108dc77",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/russian/errmsg.sys",
+      "bytes": 95539,
+      "sha256": "d9a281452c289ca92a05ab2959b9452a4b719ff01aaed627b8af1a4998a03999",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/serbian/errmsg.sys",
+      "bytes": 82583,
+      "sha256": "48521bd6b7e5af09d1394bb854970c61731a7df45d4b52142446c56475cf5852",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/slovak/errmsg.sys",
+      "bytes": 80728,
+      "sha256": "ba95c00f33357a090c54877f304a61bc0409dc52fd96e2e77e2d2cf8f3aa34f9",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/spanish/errmsg.sys",
+      "bytes": 81856,
+      "sha256": "d562a8b98037765897c1bd34190bda62e59f978ddb6d3aff0a5409c383c5b281",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/swedish/errmsg.sys",
+      "bytes": 81055,
+      "sha256": "51c107adbd8627564c0e3261c29844efff713ddbccffa81a0555f9f350578503",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/share/ukrainian/errmsg.sys",
+      "bytes": 90114,
+      "sha256": "23f56f107d595d8c3efe0bdc494b82a35b23beba96445b1af234b55b58036ed6",
+      "group": "mysql-runtime"
+    },
+    {
+      "path": "Runtime/mysql/LICENSE",
+      "bytes": 260678,
+      "sha256": "2d1a21acda44311b00d39f54826048d22782c55e9680e2058d6f163f089f18a8",
+      "group": "license"
+    },
+    {
+      "path": "Runtime/mysql/README",
+      "bytes": 566,
+      "sha256": "456f791998c36cafae4cbed7c003b014f2d44d79dae1a6608a1e786ef81c11fb",
+      "group": "license"
+    },
+    {
+      "path": "Licences/Sources/mysql-boost-5.7.44.tar.gz",
+      "bytes": 53298645,
+      "sha256": "b8fe262c4679cb7bbc379a3f1addc723844db168628ce2acf78d33906849e491",
+      "group": "corresponding-source"
+    },
+    {
+      "path": "Runtime/EAI/cacert.pem",
+      "bytes": 256008,
+      "sha256": "e78c8ab7b4432bd466e64bb942d988f6c0ac91cd785017e465bdc96d42fe9dd0",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/create_tables.php",
+      "bytes": 34768,
+      "sha256": "a04fba0466dc9436b2c4626d62270ec269a24633d31e1e1980d0ea11ac3c9797",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/cwEAIClient.php",
+      "bytes": 44944,
+      "sha256": "999f6074f49d10e778a362cb7ad26f9873becfeecba57f277d8d5a3c746584bf",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/cwEAIClientTables.php",
+      "bytes": 26080,
+      "sha256": "c2233528688701526485cf868fc177114b910cbbf159689e44bc81ae8dae7103",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/cwEAIClientVersion.php",
+      "bytes": 53,
+      "sha256": "5ca5008912bdf6217d91a4dfa940740650656c0ae838c5275044356af28e24bb",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/cwEAIFormats.php",
+      "bytes": 67979,
+      "sha256": "cf9b1037f2708afe722a45c77c06c50dcb1c2e064877a3a9afa55d8c7ac60bc2",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/cwEAIFormats.xml",
+      "bytes": 327254,
+      "sha256": "c48bbf3c465ebc457f947b48562464702ab2cfce52651dc2d42f560ac7806ece",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/cwEAILog.php",
+      "bytes": 3598,
+      "sha256": "9e8cf7d59eeaaabc8ba8632105cacd4c8f22b3f48d71bb5a864fce4abb1499b3",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/cwEAISchemaSupport.php",
+      "bytes": 30048,
+      "sha256": "b1f1eaa6414af09288bb8d6e224442c2784326020581607886b942d37ed23f54",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/cwEAIStorage.php",
+      "bytes": 33851,
+      "sha256": "d2717bc56270a2f906af682ca24b4cda80aa47734ee49bdc464e7ec6ba455137",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/cwEAIStorageDB.php",
+      "bytes": 68489,
+      "sha256": "fc61e8f18ee38738ddc6ad1f98bc3d3c3eb2596e9f8de9db8815fffb6c6c5e96",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/cwEAIStorageFile.php",
+      "bytes": 25287,
+      "sha256": "bbeca303fa4f195e000ea5498e59e48ec0dac846812c0646c9820670ddc96c4e",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/cwEAIStorageNull.php",
+      "bytes": 8446,
+      "sha256": "4ea62b662238a3877e2ca3159568a32e674000ce738ac990f4b500bcaf4031cb",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/cwEAIStorageWebService.php",
+      "bytes": 2493,
+      "sha256": "b0dfcc542ecd55b6e6b7d2e5550b707c02e8b9d6baaf9f3a3657a61320369672",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/cwEAIStorageXML.php",
+      "bytes": 5495,
+      "sha256": "c8da1a12b51c9e0fa0da0553c9827fd371b53dea8f96ae23eeab86bd0988f97a",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/cwEAIStoreExtraData.php",
+      "bytes": 12305,
+      "sha256": "23eb0c67165e4c0b8f2497520a11b23ede652f53edc25994c29dffc36e14a6bd",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/cwIO.php",
+      "bytes": 9604,
+      "sha256": "c5fc744675a19bab4615d7325870eddd7f0cbd1da3b19c07df456b26c904a021",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/ext/php_com_dotnet.dll",
+      "bytes": 73728,
+      "sha256": "8904934a41fd36896b112ec15d59f94011c48c48b019af850bbacfb63d9deebe",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/ext/php_curl.dll",
+      "bytes": 418304,
+      "sha256": "8dd84016ca4c17426702e3d8aeb54616c6cc8812871337235498aa8c35418c0b",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/ext/php_interbase.dll",
+      "bytes": 65536,
+      "sha256": "b456ae7812c9d39c8ec60685f370a282faf267ef27ed0502d3579fd4b3af5b17",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/ext/php_mysql.dll",
+      "bytes": 37376,
+      "sha256": "658adf56d7f26b36d2b2725285183a329127c9e48a995a51e192e5aeb65caa8d",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/ext/php_mysqli.dll",
+      "bytes": 90624,
+      "sha256": "0981b1c271056df2219dde5ac69827220a9618e8391ce388bce77add4804c5c6",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/ext/php_oci8_12c.dll",
+      "bytes": 123392,
+      "sha256": "c2fa59388dcc363bcc4c1b50006844672c20c8080e57f26177c108df3c84db97",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/ext/php_oci8.dll",
+      "bytes": 145920,
+      "sha256": "0c402bd3f55ee1f4f68d1f0462a4a8d9af600e4de5b75606a0dea17483898b4a",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/ext/php_openssl.dll",
+      "bytes": 91136,
+      "sha256": "8cdc59319cf5d6a4a43bd6d90924ef1b3d0c38a66f74333c1e21e9775db289d8",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/ext/php_soap.dll",
+      "bytes": 253440,
+      "sha256": "6d67a369688dd36d6092f3c51e432da663a9550a088e820c64ec622ea9d4d226",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/ext/php_sqlsrv_56_ts.dll",
+      "bytes": 199984,
+      "sha256": "658f61c22a255849730e168ec388a767518b52a45c974d1cdc79e8d6e83ced86",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/ext/php_uri_template.dll",
+      "bytes": 20992,
+      "sha256": "c03fa98cdad9f6f09d5597d2f2a08b5f1beb67a8fb3cb29c25cbc487ac832b78",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/ext/php_win32service.dll",
+      "bytes": 22016,
+      "sha256": "f8d030d710fff1dcae8c1189edc46eb59cea8cc35150b0ca95520fd167df4b60",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/ext/php_xdebug-2.5.0-5.6-vc11.dll",
+      "bytes": 189952,
+      "sha256": "30d57a281e74c8545afebde29188858922e1f7683fe0982bd9c8df7ce5e443a0",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/libeay32.dll",
+      "bytes": 1392640,
+      "sha256": "3066b73a12236cc1158dd10c5960c0c8b76124edae1df63e799a38cc90e1a8b4",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/libssh2.dll",
+      "bytes": 176128,
+      "sha256": "f74a60de76c57ef6584df34de8cd991c33434d9cdb263488eec0eea003df4b97",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/loadConfig.php",
+      "bytes": 21037,
+      "sha256": "18b87e61631181b135bc5c15be4a170258faa6ff26fe26bd5da9c5c363624769",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/nusoap.php",
+      "bytes": 289771,
+      "sha256": "42685858e476f041d641d62b7ef787daf34a4f338b2ab91c924555d6cd901c2e",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/DB.php",
+      "bytes": 43449,
+      "sha256": "2ccfb5f5a724f0830d29c2de15fee21b5a78caf0e5c768872974a8c3193bf379",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/DB/common.php",
+      "bytes": 73939,
+      "sha256": "48fbac5f11969151b4a20e886c1764f11600deb44e2066077b295cc95a6d3e1f",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/DB/dbase.php",
+      "bytes": 15357,
+      "sha256": "6ff11362b8a65e409aa876a3468d7ea7c490abd591e030c8460b0dd459351496",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/DB/fbsql.php",
+      "bytes": 23218,
+      "sha256": "a68d1b8b48869647b35c8546e6a8531158d4cd83879a2bfba5eb63a85e3d678d",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/DB/ibase.php",
+      "bytes": 34270,
+      "sha256": "418242a2abce34c355e0e063a9d5a4ff60644b4f347d42ea21e5c1b970dafedb",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/DB/ifx.php",
+      "bytes": 20011,
+      "sha256": "00061d2f9f6fb4d36daa67b2825f5b3d9036e35cf932b6c08b845a353d85259b",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/DB/msql.php",
+      "bytes": 24578,
+      "sha256": "2df9434f613a80430808b758bca72f0f42b3c6e3b49d17c38e350d5f30b7c99a",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/DB/mssql.php",
+      "bytes": 29765,
+      "sha256": "6eb35c4fe3aeda0f86d4d5911e67e82fe4b8ea5ea730dfbae521a1b8ffdbb387",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/DB/mssql2.php",
+      "bytes": 32873,
+      "sha256": "1b39b2478a595a636198861ce5aa626fbf64323c52b5e48bdd7c421b7f241ba8",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/DB/mysql.php",
+      "bytes": 32606,
+      "sha256": "7da108c0b1a0c4548442ca0a72a9a5933d0709e02d34ea61c19ec3765a7b1286",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/DB/mysqli.php",
+      "bytes": 34836,
+      "sha256": "ca107878f380b810245df6115494119304da7a4bf106649d14db866d85bd63e8",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/DB/oci8.php",
+      "bytes": 38542,
+      "sha256": "c695fbc060b1b79ebcefb2488bebaf783f1e410b5662f645d8947b265a8f0ec6",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/DB/odbc.php",
+      "bytes": 26726,
+      "sha256": "7284cc0dc4abb070b94bc760fefdd09f3a2e7ad2b6445f8ef94b56127cf85539",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/DB/pgsql.php",
+      "bytes": 36878,
+      "sha256": "1e4ef74b9eaa8a0903cd2de2560e55abdce9061ef623a96f5f057e429ea5d9f1",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/DB/sqlite.php",
+      "bytes": 30591,
+      "sha256": "ee2b93d95d9e40abb07868e5cb4e2024814d354549400fa4dbb4ce0705d66d29",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/DB/storage.php",
+      "bytes": 14844,
+      "sha256": "2b3f2b7f6df495b7f96a599b2d95ccd52faa74857abcc174299c3adbc1557fc5",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/DB/sybase.php",
+      "bytes": 29296,
+      "sha256": "d8378266c1d21b6e711866f44e6ddd1cb37373c20061c6b968364c82c59b0177",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/HTTP/Request2.php",
+      "bytes": 36388,
+      "sha256": "92dafc3c22a2f9485769ae6ec87ed5d6276121efb3534f1ab1d71f0f799cd336",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/HTTP/Request2/Adapter.php",
+      "bytes": 5761,
+      "sha256": "79d03c5e046fb045edec6eee9d59056c53e616cbc290364d14eb7c3ea510c4dd",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/HTTP/Request2/Adapter/Curl.php",
+      "bytes": 23013,
+      "sha256": "8e8a2b5f7af50d94e5749aeede579f8240a1d219028bcd394cba0dd2df2d12cc",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/HTTP/Request2/Adapter/Mock.php",
+      "bytes": 6117,
+      "sha256": "b615c2b36472a85f7d23c7c368619b2d603721ae6078533dba9890bd519f5db5",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/HTTP/Request2/Adapter/Socket.php",
+      "bytes": 43307,
+      "sha256": "39f5bababe858cab67acf6dba757f838f563aa5e96fe98937925447658b1aaaa",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/HTTP/Request2/CookieJar.php",
+      "bytes": 18600,
+      "sha256": "acba68f1c6a3626dcbcc9c00a37b570a2a98c526b79e04c54db9f86d1ec6abb6",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/HTTP/Request2/Exception.php",
+      "bytes": 5655,
+      "sha256": "7286635049a1a720419d68358e1c56f7063dfa6b7be03aa5fed1d9de6a294bf4",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/HTTP/Request2/MultipartBody.php",
+      "bytes": 10157,
+      "sha256": "0be8ddc689da7978ed6c65bccfb69295f08347776a3bc9dd3528e95e071ac266",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/HTTP/Request2/Observer/Log.php",
+      "bytes": 6881,
+      "sha256": "293b41fd36c754bf807db7a1798afdb5b2cc04e8a3237b88d3af403a62792e6c",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/HTTP/Request2/public-suffix-list.php",
+      "bytes": 94279,
+      "sha256": "d5b46745832072f7b55753997e616acfba6a39a34f40169075a3d52710dea178",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/HTTP/Request2/Response.php",
+      "bytes": 22149,
+      "sha256": "927ec28baf6702e9561a043910fc533769f7ba8be212465934597b4f9cdf4900",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/appenders/LoggerAppenderConsole.php",
+      "bytes": 3203,
+      "sha256": "9e9a49c8ed4678f6896e2eb99254e84b48a1738dda87157cc28fb2646540b15a",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/appenders/LoggerAppenderDailyFile.php",
+      "bytes": 4254,
+      "sha256": "2c3d888292d051c3f3af7a9a4f589c0ef071098b99666ba26869a46cabeeeb7f",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/appenders/LoggerAppenderEcho.php",
+      "bytes": 2628,
+      "sha256": "8045c9f706288c20e29c4402f9f33a838762a7b3ba13441c84433a6afe8b6324",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/appenders/LoggerAppenderFile.php",
+      "bytes": 5806,
+      "sha256": "5e7a663b71679de00ca029b47689c0a914f541c517f721ac6b61615106480e52",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/appenders/LoggerAppenderFirePHP.php",
+      "bytes": 3232,
+      "sha256": "26726e8b59ab3f5c7561b388cec65db485274c5565923f7ff3aa125690584bc0",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/appenders/LoggerAppenderMail.php",
+      "bytes": 3982,
+      "sha256": "84cce29ec7772e583fb40cd155665a134bd86d3d0c1a5c5df1a96b23dd5af5dd",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/appenders/LoggerAppenderMailEvent.php",
+      "bytes": 5204,
+      "sha256": "32168498cf3aaf29b9bdc07dcdd57872066b8ade882f46c4367a4c442f29ca37",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/appenders/LoggerAppenderMongoDB.php",
+      "bytes": 10654,
+      "sha256": "738f026e0ce329e6d6ad7a3ceaa3fb264dac88699367381a34f34a893be59c27",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/appenders/LoggerAppenderNull.php",
+      "bytes": 1516,
+      "sha256": "b032ae554fb570c4ba0619a63e046e0a984ca904ceb22300e51e578eee01d640",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/appenders/LoggerAppenderPDO.php",
+      "bytes": 8833,
+      "sha256": "f3b4479c96a4756422231590672d4047920349a23fb59430482df110ba47712b",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/appenders/LoggerAppenderPhp.php",
+      "bytes": 1965,
+      "sha256": "48e48f9a679fc76918a22710a9b6800f14b77df620acacce16e5455c61e1eef5",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/appenders/LoggerAppenderRollingFile.php",
+      "bytes": 9267,
+      "sha256": "446b55b1c7721cb5194db88822fe302f704a4dc898a615cec13742dda3ad3194",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/appenders/LoggerAppenderSocket.php",
+      "bytes": 3708,
+      "sha256": "61a04ab874d08159c90e5a12bf983b896f99ac8f668833a32b0bf9533a2a428e",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/appenders/LoggerAppenderSyslog.php",
+      "bytes": 7893,
+      "sha256": "512093147639fe0ba08788445a6e80beb547e73777eb49ee7958806bcc6d86b5",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/configurators/LoggerConfigurationAdapter.php",
+      "bytes": 1374,
+      "sha256": "0eeb348a1b943f53ca824c328a7a7e5d0883b1144ec9fd1f733a7abf5ccb762e",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/configurators/LoggerConfigurationAdapterINI.php",
+      "bytes": 8659,
+      "sha256": "f180d6d4425ff8acbd030585ffa6945c15cbc9db6476b841f370f892ca5f17f5",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/configurators/LoggerConfigurationAdapterPHP.php",
+      "bytes": 2454,
+      "sha256": "1ffab5f6b4a4cfbdf7e30e68f1c730514e90162894590910160a4e3336ad149d",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/configurators/LoggerConfigurationAdapterXML.php",
+      "bytes": 7987,
+      "sha256": "b03e38daf15188c5f2421313f05001d7f2d0093c452e67de2e9ed825c50befd8",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/configurators/LoggerConfiguratorDefault.php",
+      "bytes": 15322,
+      "sha256": "4a625abfa4462577ff3c43e95df7374349aa2ce0394b5393e8d2c6ac910be7c6",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/filters/LoggerFilterDenyAll.php",
+      "bytes": 1878,
+      "sha256": "d02e7bf42187f500a8a1a8bb053ac720db85ab0e446616add5291b18993cc3e9",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/filters/LoggerFilterLevelMatch.php",
+      "bytes": 3290,
+      "sha256": "d117f53b88e5cb6e4bda7c13f9a32beee643940c6bde42090e3042179772c518",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/filters/LoggerFilterLevelRange.php",
+      "bytes": 4312,
+      "sha256": "e9dbbe031aab1cca48220f0a5a30bfe0d27a49cec68919cd54707a190e7b3a18",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/filters/LoggerFilterStringMatch.php",
+      "bytes": 2779,
+      "sha256": "7a25521d9beabf32d62a459bd22221d2cba78175e1d877d1cd05e065707e3068",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/helpers/LoggerFormattingInfo.php",
+      "bytes": 1656,
+      "sha256": "5fd8163ff4ec23fc938733262bc1d1b8037e9877753b7dfc2c319c74c3c92a7e",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/helpers/LoggerOptionConverter.php",
+      "bytes": 7079,
+      "sha256": "67bcc7cc8a273f71f3d35968690c5e921cfd5762794908a93d228acba1ddec24",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/helpers/LoggerPatternParser.php",
+      "bytes": 7497,
+      "sha256": "b8ac8f08c7048bcb88927f1b1383e794cdc24ee411a212fa02697063cf519c73",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/helpers/LoggerUtils.php",
+      "bytes": 3503,
+      "sha256": "d20e3bccefc8f2fe6a99c6017e3f2fc91b47fd3c0dde1fae0f631d9f2ef25189",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/layouts/LoggerLayoutHtml.php",
+      "bytes": 7180,
+      "sha256": "685d7492ee48d192d2432aa5324f97a75d9fc17b0fe60f90123f51ff51ab5843",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/layouts/LoggerLayoutPattern.php",
+      "bytes": 5462,
+      "sha256": "c1ae707da23faca2b957ff2fdbb64ab430339f332255b76dde572f51b973da88",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/layouts/LoggerLayoutSerialized.php",
+      "bytes": 1853,
+      "sha256": "bbc9b559724aad70c604b25aff7a0730d7cfe50ea52a8749d4517b34dd23736d",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/layouts/LoggerLayoutSimple.php",
+      "bytes": 1853,
+      "sha256": "f1d391e799804ac206afcfc49de419c15fba4ada8bf8a80ca42d54e9c97620c7",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/layouts/LoggerLayoutTTCC.php",
+      "bytes": 6172,
+      "sha256": "239008cad8e7d136838a1cc73e22a3fec86370ced0649c55cd3a85a048883d04",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/layouts/LoggerLayoutXml.php",
+      "bytes": 6737,
+      "sha256": "61c04a8480ebbf84f4a3e8e477c8a91345c5a398ff3ddd94960a24f939b4b829",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/Logger.php",
+      "bytes": 17275,
+      "sha256": "936eb8d8928e4a244bf4324bae68f98ed2696c23d7136ecdc4f467a8bacce59f",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/LoggerAppender.php",
+      "bytes": 7413,
+      "sha256": "bc9354644a08045f565dc7af3ad9a50ea9bfa34f52abf19b2c7761650f6e1fc1",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/LoggerAppenderPool.php",
+      "bytes": 2964,
+      "sha256": "ea43861b26a11ec3b6a4c4804ff1cdfb34f2663c439b03a37b943563c79a4fd7",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/LoggerAutoloader.php",
+      "bytes": 7184,
+      "sha256": "4977267b97000c09fe5e5d7d27f7a2240035369b2e1b0a6c599ad67a2720d311",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/LoggerConfigurable.php",
+      "bytes": 4275,
+      "sha256": "3d24c8d46b5e33f7ce81ef96ad7c57398c94a78b4898be358f4e7e41e3351c28",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/LoggerConfigurator.php",
+      "bytes": 1517,
+      "sha256": "220fe00a34f766dda9bb4717639459e06accb9251b46abd796a248ccb6a9eb5e",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/LoggerException.php",
+      "bytes": 992,
+      "sha256": "b3e5d881f51b1064de1ef2a9936e87788e48091e5227888e3381672702beadc6",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/LoggerFilter.php",
+      "bytes": 4464,
+      "sha256": "418d5ebee56c87b6fa7d208465842293fc81f4e9ea356d34c912df6af0e95d07",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/LoggerHierarchy.php",
+      "bytes": 7508,
+      "sha256": "9c1f54ac7350c378da8d7fe90d6389ceee26fef073a7a59998e2b54285e564c3",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/LoggerLayout.php",
+      "bytes": 2072,
+      "sha256": "506d05f030d37ade065058ffdaec07913ed23f06c3b5d1e42aaef3d386013878",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/LoggerLevel.php",
+      "bytes": 7077,
+      "sha256": "36d54a352dfca54d759ccb6ad3dcd705b84c75c297e9da69d2e4eda0183d3145",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/LoggerLocationInfo.php",
+      "bytes": 3046,
+      "sha256": "1660cd0669a9d381ab219b832121cf8237e241a28fc6dc97d4acc5ab32d2ef1c",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/LoggerLoggingEvent.php",
+      "bytes": 9951,
+      "sha256": "d264e92ee607d0e828965846420391548e9dfca9efbda84a97fb1c0fb6894ec0",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/LoggerMDC.php",
+      "bytes": 2569,
+      "sha256": "2a6a334801b44317d1227f13e3ac4ef7e8f9db0af2997daf1f8403ff21a96a96",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/LoggerNDC.php",
+      "bytes": 7040,
+      "sha256": "4f2e2e231e2626d7acd07cc75b5dedad548e146145b90d79174a9a87ac90bc40",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/LoggerReflectionUtils.php",
+      "bytes": 4761,
+      "sha256": "f2f46902c1a2cda9a43bcde8af0bb48e6f9b161b7529fbf22f29643abf3a22c2",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/LoggerRoot.php",
+      "bytes": 2016,
+      "sha256": "6d51e7755a089b4de5f86ac17cb77122852d946decc927f153e4f3bac8aa9422",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/LoggerThrowableInformation.php",
+      "bytes": 1791,
+      "sha256": "99db53f1b69cd979853d5d7ef0e48a211f83e1fa74d87872f1b924e37f40b26d",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverter.php",
+      "bytes": 3539,
+      "sha256": "a581800a3888fe8f3252353aada716fa9626c6421a2c76d73c83a71e5ab2323f",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverterClass.php",
+      "bytes": 1993,
+      "sha256": "131b41d9375b5d3ef1677560b64e36b39370e6126f46904c6605215a991b1034",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverterCookie.php",
+      "bytes": 1249,
+      "sha256": "2acf5865a457dae0eef2d5a9f23ccfcfdf7f5f6aa7ec582c52a5005610a49c89",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverterDate.php",
+      "bytes": 2912,
+      "sha256": "cd19de4b8bebf1dfbbe95276ca2f62ac62ab9e4461cac8a6c3fb06a786d6073a",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverterEnvironment.php",
+      "bytes": 1208,
+      "sha256": "1dcd5ef74fc6a396393c1dad02ea49705d42ee3a129f1541d993f21b905d381f",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverterFile.php",
+      "bytes": 1226,
+      "sha256": "6e93ccad47c362419c30dbf0ad2b46aefdda8b61ae136ee3475c5aa7dfaa93ee",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverterLevel.php",
+      "bytes": 1164,
+      "sha256": "b844857d82ab44375e9f363daf2aee2a95c1aff94673e34341ac9931a642131c",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverterLine.php",
+      "bytes": 1244,
+      "sha256": "adc04e3e510df0e04191c6ccdae917f00888f62690e0528c98f9c66821479844",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverterLiteral.php",
+      "bytes": 1326,
+      "sha256": "126e1dedeadfeba247ecc44265b0926133b0673d8066c3d366d9301b731b931a",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverterLocation.php",
+      "bytes": 1442,
+      "sha256": "8fa167050b8880b4d69a4bbccca078eb019d43855b870eb98ee040468c3bf6b1",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverterLogger.php",
+      "bytes": 2076,
+      "sha256": "c2d8fde6f0fc1c15af9503ace792c935e66304c3c829cb82caa0d48e0cbbf1f7",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverterMDC.php",
+      "bytes": 1608,
+      "sha256": "65c5b9ef3d5c9d9479f9b184090cff701031a0f9f1db53526f6a63ef574b6fd4",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverterMessage.php",
+      "bytes": 1165,
+      "sha256": "b135ef9f9e77b798e5b0975a8afdcba994ab7d72fbf79ec1ec827160f82b4990",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverterMethod.php",
+      "bytes": 1249,
+      "sha256": "4086146e1e41fc75982688d87cdeda174439a5d9db58913721f76380e02113c6",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverterNDC.php",
+      "bytes": 1166,
+      "sha256": "5c9d8a3e53fb123451c5a739b48a5524296b8ef5ff08064978fc9e1e5c24831c",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverterNewLine.php",
+      "bytes": 1165,
+      "sha256": "1399e3eba50e8cb796072418f63d90c32dfe4ef194304a09c0ed4fef63ce28e1",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverterProcess.php",
+      "bytes": 1159,
+      "sha256": "bcc1d0296ef0e50c30cb07c28c0d006065a7aa49e984e0a32cbcc52ab8628070",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverterRelative.php",
+      "bytes": 1291,
+      "sha256": "b18c3398d27a554783499a93618b6be17c091f253f642d5be166207270b836c3",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverterRequest.php",
+      "bytes": 1214,
+      "sha256": "f3168dd55a471ffc637e8522a73c1dcc3f00c4f9b582151e494cceddd5644eed",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverterServer.php",
+      "bytes": 1212,
+      "sha256": "913700c8b796554055c715ff2ca7e7974c720d859112fb5d308ef73d3dde91da",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverterSession.php",
+      "bytes": 1216,
+      "sha256": "a32bf78f6007b6c3eda8c3ebcf901172b38dfab8c43be346eafaa86124143a76",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverterSessionID.php",
+      "bytes": 1191,
+      "sha256": "ac614c058ed84eb332ca4becd1ff590155def257e7955af756ac920c3bbaa5f2",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverterSuperglobal.php",
+      "bytes": 3145,
+      "sha256": "04bea31ea4e81619151e0732d3478b1cee9a5ae749aad6741837be122e756ac1",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/pattern/LoggerPatternConverterThrowable.php",
+      "bytes": 1327,
+      "sha256": "f49369bcb56f4aafdffe33e43e0ec495921078c081ff8c11923da7a1e4421d3e",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/renderers/LoggerRenderer.php",
+      "bytes": 1257,
+      "sha256": "a46c26817903774d43af8d0028f0d2e92f92e59fddf7bc6c1d595fc7a906bb79",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/renderers/LoggerRendererDefault.php",
+      "bytes": 1207,
+      "sha256": "ec9e76c46c547d3d4ffb19f8cab2f7ce6aa482e1bd964c695bcf6590d0aa8314",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/renderers/LoggerRendererException.php",
+      "bytes": 1179,
+      "sha256": "05509fe73d2edaf9a02978b2592cebbf0ecec21b814fcc9c1ac45c54866f4cd9",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/log4php/renderers/LoggerRendererMap.php",
+      "bytes": 5413,
+      "sha256": "8be5d07fe69a91ff296f3a2e4a699a0e225e00cce5c77e7e978597220f3d6a0a",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/Net/URL2.php",
+      "bytes": 26159,
+      "sha256": "bc825b66bbf65a0496287ae6f17e7a7dcd3d3fad2ae8e341804582e2f9a17ae4",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/OS/Guess.php",
+      "bytes": 11064,
+      "sha256": "fbb4f5538be38dcac44a4fa622b7a94a448bb22a428eb6a97abfa92012b969e6",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/PEAR.php",
+      "bytes": 35456,
+      "sha256": "76add645263989bc7681d2dfe968558adad11a3b9ac858db7d35d65addc02c89",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/PEAR/Exception.php",
+      "bytes": 13979,
+      "sha256": "4115f4418bbef6229c22f5b096de05e5bad3512a8805f18e9efc2e21dcd40198",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/System.php",
+      "bytes": 19727,
+      "sha256": "87f133c637b903fcb8a34f7d0bab4f3d0fd3ff189da32e8033c04dedeb8058ec",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/XML/Parser.php",
+      "bytes": 20823,
+      "sha256": "0fda39198eb08627f3f6a97a2b091e801f5ff6d4dd6d33bd182db76cb6b0a223",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/PEAR/XML/Parser/Simple.php",
+      "bytes": 8982,
+      "sha256": "36e0a0f9ca8757d8ef3115fefe3074630e89feb51ecd0eb2cced2e3557ced1ae",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/php.exe",
+      "bytes": 69120,
+      "sha256": "d04123c51dde180f673ddc9803880f4d42864e99d6685d0fae0992e2727d86af",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/php5ts.dll",
+      "bytes": 7161344,
+      "sha256": "33a51a65ab427e76b8c4c251da239d5062c4f5ae1e87a099f4c03e85423dd47a",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Runtime/EAI/ssleay32.dll",
+      "bytes": 277504,
+      "sha256": "1e4563fe07b9a335975cb8655301ab1c8d5c64fbca11651a44e2899a160d66b1",
+      "group": "official-sdk-internal-test"
+    },
+    {
+      "path": "Licences/php56-LICENSE",
+      "bytes": 3218,
+      "sha256": "fa5de16a10912b2f6ab46d07240412e19d757b1581b2ab2e90772fb45c8aff7d",
+      "group": "license"
+    },
+    {
+      "path": "Licences/php56-ZEND_LICENSE",
+      "bytes": 2815,
+      "sha256": "8d286e86ef7c19b210050eac33c97e0a43db161b06bdd1fc4f5afefd859cdbb2",
+      "group": "license"
+    },
+    {
+      "path": "Runtime/Prerequis/VC_redist.x64.exe",
+      "bytes": 25635768,
+      "sha256": "cc0ff0eb1dc3f5188ae6300faef32bf5beeba4bdd6e8e445a9184072096b713b",
+      "group": "microsoft-prerequisite-not-executed"
+    },
+    {
+      "path": "Runtime/Prerequis/vcredist2012_x86.exe",
+      "bytes": 6554576,
+      "sha256": "b924ad8062eaf4e70437c8be50fa612162795ff0839479546ce907ffa8d6e386",
+      "group": "microsoft-prerequisite-not-executed"
+    },
+    {
+      "path": "Licences/DOWNLOADS.json",
+      "bytes": 1773,
+      "sha256": "ef109a5ce9f2a11b891110dfbbe40edc1f61843a0c3d2ec5ea53953d97de2640",
+      "group": "provenance"
+    },
+    {
+      "path": "Code/tools/portable.mjs",
+      "bytes": 9572,
+      "sha256": "f332dfdbdc9da2803ed3f82b2f906ea4e8a0f333f00c4f2ce11c910106d86674",
+      "group": "portable-delivery"
+    },
+    {
+      "path": "Tests/recette-portable.mjs",
+      "bytes": 13667,
+      "sha256": "c828805cde4b5fc8acda206516125f12236632dc1c0d04fbb5c7518ecf9ce54f",
+      "group": "portable-delivery"
+    },
+    {
+      "path": "Tests/contract-http.mjs",
+      "bytes": 4839,
+      "sha256": "db4f256b88107d7cd1c0b6d2732f8169c5ee1a8a087d57d2097bf7bd85967c10",
+      "group": "portable-delivery"
+    },
+    {
+      "path": "Licences/NOTICE.md",
+      "bytes": 2011,
+      "sha256": "853b6af8781eef115061bad6197d2ffcd5543fc3cb2c123f88ed978ad055fcb1",
+      "group": "portable-delivery"
+    },
+    {
+      "path": "Configuration-exemple/recette.json",
+      "bytes": 319,
+      "sha256": "22ae0ed276dee74da0542b9e67e6966ff20a666160f2338aaf18500ef8c5fe7b",
+      "group": "portable-delivery"
+    },
+    {
+      "path": "Tests/BASELINE_EVIDENCE.json",
+      "bytes": 48643,
+      "sha256": "b62c973d4e295b71004faef6fc19ced88168e138bdf658526f1518de6de76d93",
+      "group": "completed-sanitized-acceptance-evidence"
+    },
+    {
+      "path": "Documentation/INSTALLATION.md",
+      "bytes": 9364,
+      "sha256": "3e6c81dbd45365e5751492126eef845d671bd3abec7d998bd91fdafe7f9e2323",
+      "group": "english-technical-guide"
+    },
+    {
+      "path": "Documentation/CLIENT_ONBOARDING.md",
+      "bytes": 3638,
+      "sha256": "3030f8418a4411928b9b931e3b8b778759e33e7370f614a94dc54bd07dd6d23c",
+      "group": "english-technical-guide"
+    },
+    {
+      "path": "Documentation/API_CONTRACT.md",
+      "bytes": 10601,
+      "sha256": "545c72d357ffd1d49a221e7dbba1fd0a5b2fc86f75491502cb20233b31a6e6e0",
+      "group": "english-technical-guide"
+    },
+    {
+      "path": "Documentation/TECHNICAL_WALKTHROUGH.md",
+      "bytes": 6782,
+      "sha256": "a19d5e2288cc18cb9639f24d9f3b7dcd1105b989a06869b6d30b39024ef7bfb4",
+      "group": "english-technical-guide"
+    },
+    {
+      "path": "Documentation/TEST_RESULTS.md",
+      "bytes": 10006,
+      "sha256": "53c3aff0cbb0bca3ed08f0b86292e52036643192fd3eb5e8b09ae0662472fee2",
+      "group": "english-technical-guide"
+    },
+    {
+      "path": "Documentation/PROJECT_STATUS.md",
+      "bytes": 3968,
+      "sha256": "ae19eb7e2e52961914cbfcce4f423512f3ffe586469b1aaa11612e8a983e2cb6",
+      "group": "english-technical-guide"
+    },
+    {
+      "path": "Documentation/SERVER_CONFIGURATION.md",
+      "bytes": 2963,
+      "sha256": "73e16f0dc9a55fa553dd57fb2695d431e408d18c9646c8b46f7143d89b2a93ed",
+      "group": "english-technical-guide"
+    },
+    {
+      "path": "Documentation/WINDOWS_STARTUP.md",
+      "bytes": 2955,
+      "sha256": "fb6a47e01217a546be8b47e6f708a9a711bbe4d103b6d999dd45a28afb2c58d2",
+      "group": "english-technical-guide"
+    },
+    {
+      "path": "Documentation/CAPACITY_POLICY.md",
+      "bytes": 4130,
+      "sha256": "697e5edb18f6d4960f41cacdf2845287d65fa4a708839c824a322e00593d5faf",
+      "group": "english-technical-guide"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4139,
+      "sha256": "85e36bcafe63d00c73742d9c8a5af613d3210be54b1005f071c590536bde18d6",
+      "group": "english-start-here"
+    },
+    {
+      "path": "Tests/ENGLISH_VERIFICATION.json",
+      "bytes": 3631,
+      "sha256": "9a2eb5907244444511043ec63c9eaf1dd621f48c634ac850a7331c4e06c32493",
+      "group": "sanitized-english-candidate-verification"
+    },
+    {
+      "path": "Installation/01-Install.cmd",
+      "bytes": 1216,
+      "sha256": "41710e47943d235e50c5738c94b352bb95d40e28ba8725f4282bd641c55bd9d7",
+      "group": "english-operator-launcher"
+    },
+    {
+      "path": "Installation/02-Start.cmd",
+      "bytes": 1214,
+      "sha256": "70409006ff7af4be4afc0f1a80d6c61efce0dfc59f7589bcc9ebc782f5cb105d",
+      "group": "english-operator-launcher"
+    },
+    {
+      "path": "Installation/03-Status.cmd",
+      "bytes": 1215,
+      "sha256": "304103ff4d0d1f64546af7c1f3b9e9d675098ebb6aaf6e3cd222cf55b9f2cc09",
+      "group": "english-operator-launcher"
+    },
+    {
+      "path": "Installation/04-Add-client.cmd",
+      "bytes": 1219,
+      "sha256": "99d0827136bb101e8c36dc7eb8e2880c4fd92223e2fdbbe1fa3ecf6f0d8014bb",
+      "group": "english-operator-launcher"
+    },
+    {
+      "path": "Installation/05-Test.cmd",
+      "bytes": 1213,
+      "sha256": "68b715ebb46c95fc63f39998e6f8477ff171316c778b7677ffc8d92d0df6a98a",
+      "group": "english-operator-launcher"
+    },
+    {
+      "path": "Installation/06-Stop.cmd",
+      "bytes": 1213,
+      "sha256": "e11448346cf6f20d570026c8dcc70b881c40398d2aa9a61ef946c2f146b35463",
+      "group": "english-operator-launcher"
+    },
+    {
+      "path": "Tests/01-Run-acceptance.cmd",
+      "bytes": 1213,
+      "sha256": "4c984047e1334e2239fee9f5fef049bce3823edec5d89608b1e87b5cb2b3062c",
+      "group": "english-acceptance-launcher"
+    },
+    {
+      "path": "Tests/ENGLISH_RELEASE_SCOPE.json",
+      "bytes": 6079,
+      "sha256": "eb1a34cf588668ae3af10333b091019777d26dd38da819584d2561606952ec40",
+      "group": "english-release-provenance"
+    },
+    {
+      "path": "Code/tools/windows-launcher.mjs",
+      "bytes": 7751,
+      "sha256": "7fade2a4069d7bde1eba35163cc5982cfe808039738acb49f66242a2f731ce65",
+      "group": "v2-source-added"
+    },
+    {
+      "path": "Tests/launcher-location.mjs",
+      "bytes": 5149,
+      "sha256": "e34b78379dc02688f494cfa253f3412a76db5b534dae076d79e19d49bcc702bd",
+      "group": "v2-source-added"
+    },
+    {
+      "path": "Tests/PATH_LAUNCHER_VERIFICATION.json",
+      "bytes": 2399,
+      "sha256": "729c437611569138a6a94ce78a8dfde9172e9f4b033e9892bb8dc0e8c665ce31",
+      "group": "v2-path-fix-verification"
+    },
+    {
+      "path": "Code/src/SnapshotReadPolicy.php",
+      "bytes": 1292,
+      "sha256": "fb07ac04183e9d5d6cd875085c5bf502da5373601ab88dbf85ef2e5310ab492a",
+      "group": "synchronization-fix"
+    },
+    {
+      "path": "Code/service/collection-health.mjs",
+      "bytes": 816,
+      "sha256": "cb4738290def78fcf5798483e7d6b1ea844ce0d53570eb45f6b3ed8ee6a3d22f",
+      "group": "synchronization-fix"
+    },
+    {
+      "path": "Code/tools/recovery-policy.mjs",
+      "bytes": 1988,
+      "sha256": "ae9f97e946d86828e7c9eb0ed050ba5764b03dd6810bbf2235920b5aff9edfec",
+      "group": "synchronization-fix"
+    },
+    {
+      "path": "Code/tools/recover-local-sync.mjs",
+      "bytes": 6868,
+      "sha256": "59c90bae359553899cfbe3c5f98a0d31bc69272f96049096e311af2313a95a3b",
+      "group": "synchronization-fix"
+    },
+    {
+      "path": "Code/tools/update-local.mjs",
+      "bytes": 10127,
+      "sha256": "02a932c491fdc1c095a91db101e05cdfcb987b9103cf26dd4a870703b284b51b",
+      "group": "synchronization-fix"
+    },
+    {
+      "path": "Code/tests/sync-outage.php",
+      "bytes": 7016,
+      "sha256": "87d4490c0347b53b8cad089fdd2ed8997a904238a9c589918bad94dd25ad775e",
+      "group": "synchronization-fix"
+    },
+    {
+      "path": "Code/tests/collection-health.mjs",
+      "bytes": 1713,
+      "sha256": "9bb7d7a4204f6b99a82439fb73730f3640361e8def56f68331da237c4db35e7d",
+      "group": "synchronization-fix"
+    },
+    {
+      "path": "Code/tests/recovery-policy.mjs",
+      "bytes": 1939,
+      "sha256": "5594434d39a2b3834e31d911b206f9639db8c594c837db8369813ec8f3098746",
+      "group": "synchronization-fix"
+    },
+    {
+      "path": "Code/tests/outage-sql-fixture.php",
+      "bytes": 1581,
+      "sha256": "2081b5e2780bbc7a28bce83f2eac11a553f589177a3fc5c6b038d5e7cca7e282",
+      "group": "synchronization-fix"
+    },
+    {
+      "path": "Code/tests/outage-integration.mjs",
+      "bytes": 6405,
+      "sha256": "77b61f013fdfa0411b57bc5e2c8f947ce68c2993786c44bbc350760f3ed66a12",
+      "group": "synchronization-fix"
+    },
+    {
+      "path": "Installation/07-Recover-sync.cmd",
+      "bytes": 776,
+      "sha256": "67b38f57ca27ffdc540e187b1afe36706bba27f9d91a994bdf23a667a64b32bd",
+      "group": "synchronization-fix"
+    },
+    {
+      "path": "Installation/08-Update-existing.cmd",
+      "bytes": 768,
+      "sha256": "787378473a709d0194acce35546edd04573d428763128fac3f751f50933a0341",
+      "group": "synchronization-fix"
+    },
+    {
+      "path": "Documentation/OUTAGE_RECOVERY.md",
+      "bytes": 4691,
+      "sha256": "fea88d107e11a1da18a59be1ac24232fe3792f894c8a06f61b6b43807729c227",
+      "group": "synchronization-fix"
+    },
+    {
+      "path": "Code/tests/recovery-local-integration.mjs",
+      "bytes": 3932,
+      "sha256": "3e35029cf06035bef56340a6b54497c52294d9c66992aa25e8875ce301b6e9cf",
+      "group": "synchronization-fix"
+    },
+    {
+      "path": "Tests/SYNC_FIX_EVIDENCE.json",
+      "bytes": 1983,
+      "sha256": "8538216729d5922c807e36df7f39609c50037a707156d23c75ed748210c9fc81",
+      "group": "synchronization-fix"
+    }
+  ],
+  "containsCustomerAccounts": false,
+  "containsCredentials": false,
+  "containsDatabases": false,
+  "containsSourceCaptures": false,
+  "containsApplicationRuntimes": true,
+  "requiresXampp": false,
+  "requiresInstalledNode": false,
+  "requiresInstalledMysql": false,
+  "windowsSystemPrerequisites": [
+    "Windows x64 with PowerShell/DPAPI",
+    "Microsoft VC runtime x64 and VC2012 x86; signed installers included, never auto-installed"
+  ],
+  "vendorSdkUse": "User-supplied SDK copied by approved runtime hashes for internal company test; no public redistribution authorization asserted",
+  "legacyRuntimeSecurityReviewRequired": true,
+  "productionReady": false,
+  "language": "en",
+  "release": "SYNC-20261021",
+  "personalMeetingNotesIncluded": false,
+  "launcherPathFix": {
+    "automaticManagedLocation": true,
+    "privateStateCopied": false,
+    "verification": "Tests/PATH_LAUNCHER_VERIFICATION.json"
+  },
+  "availabilityPolicy": "EXPLICIT_LAST_KNOWN_WITH_WARNING"
+}

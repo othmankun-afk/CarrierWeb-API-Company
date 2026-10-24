@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {collectionHealth} from '../service/collection-health.mjs';
+import {summarize} from '../tools/test-local-delivery.mjs';
+const now=Date.parse('2026-10-21T08:00:00Z');let checks=0;const check=v=>{assert.ok(v);checks++;};
+const base={generation:70,capturedUtc:'2026-10-20 23:09:59',lastAttemptUtc:'2026-10-20 23:21:23',inFlight:true,status:'COLLECTING'};
+const blocked=collectionHealth(base,{now});check(blocked.status==='BLOCKED_REVIEW_REQUIRED');check(blocked.persistedStatus==='COLLECTING');check(blocked.publicationFreshness==='STALE');check(blocked.synchronizationHealthy===false);check(base.status==='COLLECTING');check(blocked.attention==='MANUAL_REVIEW_REQUIRED_NO_AUTOMATIC_RETRY');
+const fault=collectionHealth({...base,inFlight:false,status:'FAULT_EAI_TRANSPORT_FAILED'},{now});check(fault.status==='BLOCKED_REVIEW_REQUIRED');
+const fresh=collectionHealth({...base,inFlight:false,status:'PUBLISHED',capturedUtc:'2026-10-21 07:59:00'},{now});check(fresh.synchronizationHealthy);check(fresh.publicationFreshness==='FRESH');
+check(!collectionHealth({...base,capturedUtc:null},{now}).synchronizationHealthy);
+check(!collectionHealth({...base,capturedUtc:'2099-01-01 00:00:00'},{now}).synchronizationHealthy);
+check(summarize('vehicles',503,'',{'retry-after':'47'}).result==='WAIT');check(summarize('vehicles',503,'',{}).result==='FAIL');
+const stale=summarize('vehicles',200,'[{"CWVehicleID":7}]',{'x-data-freshness':'STALE','x-data-captured-at':'2026-10-20T23:09:59Z','x-data-age-seconds':'31801'});check(stale.result==='DEGRADED');check(stale.rows===1);
+console.log(JSON.stringify({result:'PASS',suite:'collection-health',checks,eaiCalls:0,filesDeleted:0}));

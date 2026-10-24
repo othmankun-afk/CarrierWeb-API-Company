@@ -1,0 +1,10 @@
+{
+  "profile": "CW_PORTABLE_INSTALL_OPTIONS_V1",
+  "mode": "local-recette",
+  "requestConcurrency": {
+    "globalMaxConcurrent": 1,
+    "tenantMaxConcurrent": 1,
+    "requestTimeoutSeconds": 30
+  },
+  "note": "Pilote local serialise, pas une capacite de production certifiee. Aucun compte ni secret dans ce fichier."
+}

@@ -1,0 +1,9 @@
+# Keep byte-pinned source files unchanged across Windows checkouts.
+* -text
+*.md diff
+*.php diff
+*.mjs diff
+*.ps1 diff
+*.cmd diff
+*.sql diff
+*.json diff

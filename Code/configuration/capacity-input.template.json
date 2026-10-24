@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "cohort": null,
+  "evidencePins": [],
+  "current": {
+    "fixedLogicalBytesPerClient": null,
+    "fixedAllocatedBytesPerClient": null,
+    "currentHistoryRowsPerClient": null,
+    "historyRowsByEndpoint": { "positions": null, "canbus": null, "telemetry": null },
+    "sharedAllocatedBytes": null,
+    "auxiliaryAllocatedBytes": null,
+    "alreadyAllocatedBytesForPlannedScope": null
+  },
+  "measurements": {
+    "endpoints": {
+      "positions": { "payloadBytesPerEvent": null, "payloadEvidenceId": null, "allocatedDataBytesPerEvent": null, "allocatedIndexBytesPerEvent": null, "allocationEvidenceId": null },
+      "canbus": { "payloadBytesPerEvent": null, "payloadEvidenceId": null, "allocatedDataBytesPerEvent": null, "allocatedIndexBytesPerEvent": null, "allocationEvidenceId": null },
+      "telemetry": { "payloadBytesPerEvent": null, "payloadEvidenceId": null, "allocatedDataBytesPerEvent": null, "allocatedIndexBytesPerEvent": null, "allocationEvidenceId": null }
+    }
+  },
+  "workload": {
+    "storageMode": "KEEP_ALL_NO_DELETION",
+    "planningHorizonDays": null,
+    "basis": null,
+    "basisDescription": null,
+    "basisEvidenceId": null,
+    "observationWindowSeconds": null,
+    "catchupExcluded": null,
+    "retentionDays": null,
+    "eventsPerDayPerVehicle": { "positions": null, "canbus": null, "telemetry": null },
+    "vehiclesPerClient": null,
+    "clientCount": null
+  },
+  "observedIngestion": { "eventsPerSecond": null, "evidenceId": null },
+  "infrastructure": {
+    "freeDiskBytes": null,
+    "backupCopies": null,
+    "backupSizeRatio": null,
+    "restoreWorkspaceCopies": null,
+    "reservedHeadroomBytes": null,
+    "requiredRpoSeconds": null,
+    "requiredRtoSeconds": null,
+    "verifiedBackupIntervalSeconds": null,
+    "verifiedRestoreSeconds": null,
+    "costPerGiBMonth": null,
+    "costCurrency": null
+  }
+}

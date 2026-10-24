@@ -1,0 +1,41 @@
+{
+  "result": "PASS",
+  "resources": [
+    {
+      "name": "node-LICENSE",
+      "url": "https://raw.githubusercontent.com/nodejs/node/v24.14.1/LICENSE",
+      "finalUrl": "https://raw.githubusercontent.com/nodejs/node/v24.14.1/LICENSE",
+      "bytes": 156926,
+      "sha256": "4573185d56580da2b890ba34a85a409257640f1c5632eade4300137266194d18"
+    },
+    {
+      "name": "php56-LICENSE",
+      "url": "https://raw.githubusercontent.com/php/php-src/php-5.6.28/LICENSE",
+      "finalUrl": "https://raw.githubusercontent.com/php/php-src/php-5.6.28/LICENSE",
+      "bytes": 3218,
+      "sha256": "fa5de16a10912b2f6ab46d07240412e19d757b1581b2ab2e90772fb45c8aff7d"
+    },
+    {
+      "name": "php56-ZEND_LICENSE",
+      "url": "https://raw.githubusercontent.com/php/php-src/php-5.6.28/Zend/LICENSE",
+      "finalUrl": "https://raw.githubusercontent.com/php/php-src/php-5.6.28/Zend/LICENSE",
+      "bytes": 2815,
+      "sha256": "8d286e86ef7c19b210050eac33c97e0a43db161b06bdd1fc4f5afefd859cdbb2"
+    },
+    {
+      "name": "mysql-boost-5.7.44.tar.gz",
+      "url": "https://cdn.mysql.com/archives/mysql-5.7/mysql-boost-5.7.44.tar.gz",
+      "finalUrl": "https://cdn.mysql.com/archives/mysql-5.7/mysql-boost-5.7.44.tar.gz",
+      "bytes": 53298645,
+      "sha256": "b8fe262c4679cb7bbc379a3f1addc723844db168628ce2acf78d33906849e491"
+    },
+    {
+      "name": "VC_redist.x64.exe",
+      "url": "https://aka.ms/vs/17/release/vc_redist.x64.exe",
+      "finalUrl": "https://download.visualstudio.microsoft.com/download/pr/990c720a-46ce-4dc7-87b9-c2eb615d34b9/CC0FF0EB1DC3F5188AE6300FAEF32BF5BEEBA4BDD6E8E445A9184072096B713B/VC_redist.x64.exe",
+      "bytes": 25635768,
+      "sha256": "cc0ff0eb1dc3f5188ae6300faef32bf5beeba4bdd6e8e445a9184072096b713b"
+    }
+  ],
+  "filesDeleted": 0
+}

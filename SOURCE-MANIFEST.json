@@ -1,0 +1,1087 @@
+{
+  "profile": "CW_API_SOURCE_CHECKOUT_V1",
+  "containsCredentials": false,
+  "containsCustomerAccounts": false,
+  "containsRuntimeBinaries": false,
+  "containsInitializedDatabases": false,
+  "portableBaseManifestSha256": "c9c779e299d074f12ac580d6811160fbc6dd35f7855c1251d5bfb381c645fbb0",
+  "excludedPortableFiles": [
+    "Tests/BASELINE_EVIDENCE.json",
+    "Tests/CLIENT_ACCESS_20261022.json",
+    "Tests/CONTRACT_REVIEW_20261023.json",
+    "Tests/ENGLISH_RELEASE_SCOPE.json",
+    "Tests/ENGLISH_VERIFICATION.json",
+    "Tests/HANDOVER_REVIEW_20261021.json",
+    "Tests/ONBOARDING_RESUME_20261022.json",
+    "Tests/PATH_LAUNCHER_VERIFICATION.json",
+    "Tests/SYNCHRONIZATION_RECOVERY_20261022.json",
+    "Tests/SYNC_FIX_EVIDENCE.json",
+    "Tests/WINDOWS_CONTROL_FIX_20261022.json",
+    "Tests/WINDOWS_HANDOVER_20261023.json"
+  ],
+  "files": [
+    {
+      "path": "Code/tests/onboarding-resume.mjs",
+      "portableOverlay": true,
+      "bytes": 12160,
+      "sha256": "b36e8b685eca86b00cc1ae4d43ab17e503cf458d3b898d25256c51bd49400299"
+    },
+    {
+      "path": "Code/tools/client-access.mjs",
+      "portableOverlay": true,
+      "bytes": 5519,
+      "sha256": "6983b962edcb8a38b997d8953eb01a5e396d5a43278d6c50e52a0b74558dde85"
+    },
+    {
+      "path": "Code/tests/client-access.mjs",
+      "portableOverlay": true,
+      "bytes": 6520,
+      "sha256": "eaf896bc42e832e2114fbdf708f606684afc860fb4d325490286eb0af113d681"
+    },
+    {
+      "path": "Installation/09-Client-access.cmd",
+      "portableOverlay": true,
+      "bytes": 1428,
+      "sha256": "aa4efba11101a9dc6095a1b34db2f9076823baddfad583d8d7bc6deee2dc0c3a"
+    },
+    {
+      "path": "Code/tests/control-and-onboarding.mjs",
+      "portableOverlay": true,
+      "bytes": 4477,
+      "sha256": "37a6ac8da6326fee63184e32cc6aee0ea9ba79b435de01f23ff4640074e71757"
+    },
+    {
+      "path": "Code/service/control-suite.mjs",
+      "portableOverlay": true,
+      "bytes": 8615,
+      "sha256": "3dc6933cc01ac56eeb5683afadd0bd72ebbfc5bd1b04fff2852d8a398bd017b8"
+    },
+    {
+      "path": "Code/tools/onboard-interactive.mjs",
+      "portableOverlay": true,
+      "bytes": 4062,
+      "sha256": "b861416f85fce09a3556c08d9762a2e490fe5ea48416c9124d884ef827cd900e"
+    },
+    {
+      "path": "PACKAGE_README.md",
+      "portableOverlay": false,
+      "bytes": 7626,
+      "sha256": "1848e60907b38844f673e5f0d2f9ea0c5858c842d50b31f0ef34fbdeefc84131"
+    },
+    {
+      "path": "Code/src/Api.php",
+      "portableOverlay": true,
+      "bytes": 20385,
+      "sha256": "c71c2b8ff08ed89d7820b3f8ce95daa8a8caa327fb03de0bc727363e7d8fd30f"
+    },
+    {
+      "path": "Code/src/Bootstrap.php",
+      "portableOverlay": true,
+      "bytes": 16670,
+      "sha256": "2f102ad88a3887a8817b72e85acdc925387b7d36e59b4ded2723160235fd3222"
+    },
+    {
+      "path": "Code/src/CarrierwebResponse.php",
+      "portableOverlay": true,
+      "bytes": 3927,
+      "sha256": "b9601e61ff46165e7450439e03f78916a307d1923e56d3d8007cdfdd9b51a1f6"
+    },
+    {
+      "path": "Code/src/Contract.php",
+      "portableOverlay": true,
+      "bytes": 7410,
+      "sha256": "023ebd39a16e9e039c3b1af3397d11419cf74dbd9aca2bbfb763988ea4473435"
+    },
+    {
+      "path": "Code/src/CompactStateJson.php",
+      "portableOverlay": true,
+      "bytes": 1803,
+      "sha256": "36130b9e1a6476b8ee7d96cda480a6a67fefc79d2222bc6b41ccd5f1fad4778f"
+    },
+    {
+      "path": "Code/src/EaiCurrentVehicleSignals.php",
+      "portableOverlay": true,
+      "bytes": 15793,
+      "sha256": "0c814762cbc93f57cf45bca9ed80d80c204eae072d4894ee540a68859fb37880"
+    },
+    {
+      "path": "Code/src/EaiSnapshotVehiclesRepository.php",
+      "portableOverlay": true,
+      "bytes": 4152,
+      "sha256": "9e9b87b3514a1179e1c28822f290928998c676dac55caa3907d06a08c2b649c3"
+    },
+    {
+      "path": "Code/src/EaiSuiteMapping.php",
+      "portableOverlay": true,
+      "bytes": 7772,
+      "sha256": "fa9e168f8e4ea4ca0af0968ad4904ad4983019c61fb7a4ddc8542779f8e42ded"
+    },
+    {
+      "path": "Code/src/EaiSuiteRepository.php",
+      "portableOverlay": true,
+      "bytes": 2971,
+      "sha256": "db1ae9d7118ea349b243d35ad3ba5cabb1f93b376fd3e47381c81ee8a4363c39"
+    },
+    {
+      "path": "Code/src/EaiTelemetryRepository.php",
+      "portableOverlay": true,
+      "bytes": 2892,
+      "sha256": "34e0a59ae0e66b860cf73793be1ab63904e7bacbda944efc498a22c1ac9115f5"
+    },
+    {
+      "path": "Code/src/EaiVehicleMapping.php",
+      "portableOverlay": true,
+      "bytes": 16476,
+      "sha256": "b5b6fa2fac78fb2706e09e11ce8e01e2432069c9d9d07fe02bd24f44b4c75608"
+    },
+    {
+      "path": "Code/src/EaiVehicleSignals.php",
+      "portableOverlay": true,
+      "bytes": 7537,
+      "sha256": "0fec3b2e7161e6b43157d742d88827fb0865bfc69f6415c6655a1f136c57eac4"
+    },
+    {
+      "path": "Code/src/EaiVehicleState.php",
+      "portableOverlay": true,
+      "bytes": 5851,
+      "sha256": "c771a4dfd0c62549a14ef4353c51a7159ac8939828adf78659e5a678a2674b58"
+    },
+    {
+      "path": "Code/src/LegacyVehicleCounterPolicy.php",
+      "portableOverlay": true,
+      "bytes": 2849,
+      "sha256": "c96e143b97566c6add4d33f0898a949a35ea14fa0d9c284c147f152bfb521d78"
+    },
+    {
+      "path": "Code/src/MysqliDatabase.php",
+      "portableOverlay": true,
+      "bytes": 4142,
+      "sha256": "3819263a97b61b7231c860ca7505137bd56f1249db9c1575e9d85ec629d4b3bf"
+    },
+    {
+      "path": "Code/src/PublishedVehiclesRepository.php",
+      "portableOverlay": true,
+      "bytes": 4118,
+      "sha256": "8be6e31657ff0786e32923322ddd521b10eff8cf71698fcf6f38e87c71e7870c"
+    },
+    {
+      "path": "Code/src/Repository.php",
+      "portableOverlay": true,
+      "bytes": 6462,
+      "sha256": "98d20bcc866b1df06e46972a02ab15af008c34d0f353d9eb83164f7f036d95d4"
+    },
+    {
+      "path": "Code/src/SafeAudit.php",
+      "portableOverlay": true,
+      "bytes": 1410,
+      "sha256": "77308b146c5566c4815d4999adfcbe70a187c3cbd5b6c99b344929433512e7b0"
+    },
+    {
+      "path": "Code/src/StrictJson.php",
+      "portableOverlay": true,
+      "bytes": 4556,
+      "sha256": "55641bb1cfa1ab5c60c879876cf61efd4772f77857658e4cf179e902cd509f7a"
+    },
+    {
+      "path": "Code/src/SuiteHistoryPolicy.php",
+      "portableOverlay": true,
+      "bytes": 3152,
+      "sha256": "6c0fe23b09f855b047c25864e254d82c91f3bb5870b1ed0c589f3e4bfd16bc86"
+    },
+    {
+      "path": "Code/src/SuiteLiveRepository.php",
+      "portableOverlay": true,
+      "bytes": 7948,
+      "sha256": "2609acf5f8b9d227ca57f5a588d1e1e707894f7607abda246b321379e3041081"
+    },
+    {
+      "path": "Code/src/SuiteServiceStore.php",
+      "portableOverlay": true,
+      "bytes": 23190,
+      "sha256": "bc9cc1bec6bbd72459b24c66c401dee2ec137e9e13c318cf73911d0450f673e6"
+    },
+    {
+      "path": "Code/src/VehiclesLegacyCompatibility.php",
+      "portableOverlay": true,
+      "bytes": 3030,
+      "sha256": "78ef0d520b74d7789189d31fd92c694bf74d54e687bf6775e5185e63f86398ec"
+    },
+    {
+      "path": "Code/src/VehiclesPublisher.php",
+      "portableOverlay": true,
+      "bytes": 5376,
+      "sha256": "0b893061fcb66ed182f009ba8fa0ef7a1183261d0cbc36031a0ce442e11cdb7e"
+    },
+    {
+      "path": "Code/src/VehiclesServiceDiagnostic.php",
+      "portableOverlay": true,
+      "bytes": 3600,
+      "sha256": "13656646cd15407ab5d093a5ba2e06dd5e6ab047b96d477aac45b658da361b08"
+    },
+    {
+      "path": "Code/public/index.php",
+      "portableOverlay": true,
+      "bytes": 2537,
+      "sha256": "4f0187736112bb866ee7843e512db51190ab155d39941b0ab5ca3427588d96dc"
+    },
+    {
+      "path": "Code/public/router.php",
+      "portableOverlay": true,
+      "bytes": 123,
+      "sha256": "b9170db9d008b2a6e11b55a7f492ba0a2be9827cf90869f71ac65d4c6ee78a66"
+    },
+    {
+      "path": "Code/compat/auth-missing.json",
+      "portableOverlay": true,
+      "bytes": 1812,
+      "sha256": "b65cdc9beddfbc872c0c5dca6968c5ab88376d98126e1bf032c40074d02613bf"
+    },
+    {
+      "path": "Code/compat/documentation.json",
+      "portableOverlay": true,
+      "bytes": 2059,
+      "sha256": "fce4bf8c82743fe2e627dbe5c321470aa2a5cb9b0d615295d29856adb5401c25"
+    },
+    {
+      "path": "Code/database/suite_live.sql",
+      "portableOverlay": true,
+      "bytes": 2327,
+      "sha256": "b4f0d229e0b0b7f1e8ff3e23a37d1d12c20f36987b67621ae9737d8497d42846"
+    },
+    {
+      "path": "Code/configuration/sdk-runtime-pins.json",
+      "portableOverlay": true,
+      "bytes": 16730,
+      "sha256": "2fb47091d7d91c3b53ae821cbda49f26659379031398d78859e803e8681d46ff"
+    },
+    {
+      "path": "Code/configuration/capacity-input.template.json",
+      "portableOverlay": true,
+      "bytes": 1871,
+      "sha256": "5487525f0c591f2ea380079d2fae77223c05acb43e9aea0e16992ae584f18956"
+    },
+    {
+      "path": "Code/service/runtime.mjs",
+      "portableOverlay": true,
+      "bytes": 5421,
+      "sha256": "b76008fbed10467651d08b458ee30e0e23247904a2839db41afd9ff29c31b2ea"
+    },
+    {
+      "path": "Code/service/suite-runtime.mjs",
+      "portableOverlay": true,
+      "bytes": 1943,
+      "sha256": "b589101a41fc31b56176681ac86c1130008a23ef0cbfa069bf5381623453eec4"
+    },
+    {
+      "path": "Code/service/suite-database.php",
+      "portableOverlay": true,
+      "bytes": 7442,
+      "sha256": "161133c96223e5516d02af309ca591ad4b51cd90b3a4a492601f88711c6bd7c6"
+    },
+    {
+      "path": "Code/service/collect-suite-eai.php",
+      "portableOverlay": true,
+      "bytes": 8020,
+      "sha256": "c8fa84b9abdd5ec562ce21e2d575dfd8cbdfacf09db774234e75952ff9461fad"
+    },
+    {
+      "path": "Code/service/suite-eai-policy.php",
+      "portableOverlay": true,
+      "bytes": 7703,
+      "sha256": "d6953b644df7a204b55b02bf68dddf410de2030a70e4090c313225c258b6cfec"
+    },
+    {
+      "path": "Code/service/sdk-date-normalization.php",
+      "portableOverlay": true,
+      "bytes": 1017,
+      "sha256": "cb9b294d0a2f6abaee0ad75386d7b15f999507c0a4bc5012e4e636cdc7d7165c"
+    },
+    {
+      "path": "Code/service/suite-worker.mjs",
+      "portableOverlay": true,
+      "bytes": 8308,
+      "sha256": "b9882681ae5deebcc6b1b4c20513a4c66e2c8771d585c10326e3d46238f23bae"
+    },
+    {
+      "path": "Code/service/suite-supervisor.mjs",
+      "portableOverlay": true,
+      "bytes": 6433,
+      "sha256": "2a0d6b9682de8244210cb5528baaf3bc1a5a008fdeaff4eb635d32cd44c3c5ca"
+    },
+    {
+      "path": "Code/service/supervisor-policy.mjs",
+      "portableOverlay": true,
+      "bytes": 1416,
+      "sha256": "72e2f1aa75f1216b5fc7c8a6c5428573f3ab299fbea9276ef4d8ec1e87ada1f5"
+    },
+    {
+      "path": "Code/service/status-writer.mjs",
+      "portableOverlay": true,
+      "bytes": 1876,
+      "sha256": "1b0401d61cc0902667a0c39419654d1111278ad4fca11ea9b56802d63de322e3"
+    },
+    {
+      "path": "Code/service/Control-Suite.ps1",
+      "portableOverlay": true,
+      "bytes": 5338,
+      "sha256": "764ce2654f96090496d6e997cc4347d58eee76cfc95f4bf950e6026b0197b37d"
+    },
+    {
+      "path": "Code/service/Start-Suite-Supervisor.ps1",
+      "portableOverlay": true,
+      "bytes": 649,
+      "sha256": "0adcabacfc9e8d0fbbbe0afb55ea1dab1096c936d1759551ea171f25eb96e72e"
+    },
+    {
+      "path": "Code/service/Install-Suite-Autostart.ps1",
+      "portableOverlay": true,
+      "bytes": 3265,
+      "sha256": "2c554d72eaee7c43b829bcc08609cc50536bed8abfc1fdf753f15329e5541e7a"
+    },
+    {
+      "path": "Code/service/private-folder.ps1",
+      "portableOverlay": true,
+      "bytes": 810,
+      "sha256": "9825c7a7828bb889b3cd7de2e1d2319c24cf365e7337e165e76c658b8778490b"
+    },
+    {
+      "path": "Code/service/secrets.ps1",
+      "portableOverlay": true,
+      "bytes": 1034,
+      "sha256": "1e24647d32640c324b5055afe9286e660a89aaa3f4dfa91802e857953b8b1d13"
+    },
+    {
+      "path": "Code/service/local-loopback-preflight.php",
+      "portableOverlay": true,
+      "bytes": 862,
+      "sha256": "2556fa8eecabca829081f42d7a4a767357b6f771fd837952235cb8dc95410a70"
+    },
+    {
+      "path": "Code/tools/add-suite-client.mjs",
+      "portableOverlay": true,
+      "bytes": 7295,
+      "sha256": "e0f13214fb62f8bec471fa8a488bcbefa1878f5f3bf1e595dd77ba25e47132f4"
+    },
+    {
+      "path": "Code/tools/add-suite-client-core.mjs",
+      "portableOverlay": true,
+      "bytes": 23512,
+      "sha256": "e018555cd74fef653b2eb9ccce93863013f7f37fe74e29f4fea33540582e24db"
+    },
+    {
+      "path": "Code/tools/Add-Suite-Client.ps1",
+      "portableOverlay": true,
+      "bytes": 3678,
+      "sha256": "34bd010a0ded8a4978fb602ccec441c85430e730021be0d3275a4f57cd5a4e02"
+    },
+    {
+      "path": "Code/tools/suite-registry.mjs",
+      "portableOverlay": true,
+      "bytes": 3889,
+      "sha256": "47196ee9d2d5807ac206066785f9461f26a239442d79fd96cafc4aff85a3b961"
+    },
+    {
+      "path": "Code/tools/initialize-empty-suite.mjs",
+      "portableOverlay": true,
+      "bytes": 11662,
+      "sha256": "7741923e1395b5a0ab1213993a7a1932a9579db44ae782aa0e0a851b564589d6"
+    },
+    {
+      "path": "Code/tools/build-replication-package.mjs",
+      "portableOverlay": true,
+      "bytes": 7771,
+      "sha256": "976f3baf6fd494848523c411060d785fcb87c552a8f12fb1850acb7a6d5aa3fc"
+    },
+    {
+      "path": "Code/tools/package-archive.ps1",
+      "portableOverlay": true,
+      "bytes": 1497,
+      "sha256": "66ad0a99b91fcce78e3dec991ced6cc7684112094e7877b08f488ecf6881a322"
+    },
+    {
+      "path": "Code/tools/capacity-plan.mjs",
+      "portableOverlay": true,
+      "bytes": 16725,
+      "sha256": "7ff5cf8fd0d0d8c99659ce892b5fe3026e7ab7f2c9c3624e96f8ff0dc60cb7c2"
+    },
+    {
+      "path": "Code/tools/test-local-delivery.mjs",
+      "portableOverlay": true,
+      "bytes": 5904,
+      "sha256": "41079ef3754fcbdd49fa54923c96c942d02d52f1a5ec002da3b52565e9ed816f"
+    },
+    {
+      "path": "Code/tests/replication-package.mjs",
+      "portableOverlay": true,
+      "bytes": 15602,
+      "sha256": "62bd63a6a8674ce144063ea5a0dbd92f90c389404722d1a7f5d7522a32ff84db"
+    },
+    {
+      "path": "Code/tests/replication-onboarding-source.php",
+      "portableOverlay": true,
+      "bytes": 2389,
+      "sha256": "c32323b2ac9ff54716adab5ca1d5e07a4266816d1f825c49174ce82a7e9a5e01"
+    },
+    {
+      "path": "Code/tests/replication-sql-isolation.php",
+      "portableOverlay": true,
+      "bytes": 1467,
+      "sha256": "1bd489f53b9d0f621e80d53953364f67cb4169988560adcf9548489bbf3e338c"
+    },
+    {
+      "path": "Code/tests/capacity-plan.mjs",
+      "portableOverlay": true,
+      "bytes": 12031,
+      "sha256": "c676d8fd93db7152d0014e812d0cbb08641a624d67806a39e4d16dee96088efa"
+    },
+    {
+      "path": "Code/docs/REPLICATION_WINDOWS_RECETTE.md",
+      "portableOverlay": true,
+      "bytes": 88,
+      "sha256": "c9b2942a5b322ab49049b02cd7f855dab3902ac2f1dd0fb53ee39fb6452785b3"
+    },
+    {
+      "path": "Code/docs/CAPACITY_INPUTS.md",
+      "portableOverlay": true,
+      "bytes": 7274,
+      "sha256": "55d6034c6ce9243102a6463cb9077c79c59ecc5d6b0ef6b78e0d614dd3d95282"
+    },
+    {
+      "path": "Code/docs/EXPLOITATION_DECISION.md",
+      "portableOverlay": true,
+      "bytes": 82,
+      "sha256": "731de58ac344bae0ad1d2eccbe4a513fac5b7cb6e0b8655cde67515259b0c49a"
+    },
+    {
+      "path": "Code/Installation/Lancer.ps1",
+      "portableOverlay": true,
+      "bytes": 7701,
+      "sha256": "dcc9c946823c0d78fe7627db26c422a2038581724ab258eb05fcab02c2bc420e"
+    },
+    {
+      "path": "Code/Installation/01-Installer.cmd",
+      "portableOverlay": true,
+      "bytes": 100,
+      "sha256": "9c83580a2a90584fc31334fe6827b2b7f78ac4cf8054d754b586733ca53a4826"
+    },
+    {
+      "path": "Code/Installation/02-Demarrer.cmd",
+      "portableOverlay": true,
+      "bytes": 118,
+      "sha256": "671907b6111d78ad65e6942dbfe2b7ab4b4039a91488f4e239eaea938275179d"
+    },
+    {
+      "path": "Code/Installation/03-Statut.cmd",
+      "portableOverlay": true,
+      "bytes": 119,
+      "sha256": "9fbc715a2a48dd525ac1270f49be6a6584ac0e77932d56e571c964e873332665"
+    },
+    {
+      "path": "Code/Installation/04-Ajouter-client.cmd",
+      "portableOverlay": true,
+      "bytes": 102,
+      "sha256": "ee6588ab46a8d8c724d6c867e8e642e9d3a7ac75ac8cf0a3daf20bc526d58067"
+    },
+    {
+      "path": "Code/Installation/05-Tester.cmd",
+      "portableOverlay": true,
+      "bytes": 97,
+      "sha256": "45122b7111dd083ec28b9944ef4edbc2c3994dc16380ab5aa07f6077f2b569e4"
+    },
+    {
+      "path": "Code/Installation/06-Arreter.cmd",
+      "portableOverlay": true,
+      "bytes": 117,
+      "sha256": "8e464e1c9833fc2896ca765a8de9a1ed2db727e8403a842a0ecb507a1fb99e7f"
+    },
+    {
+      "path": "Code/tests/delivery-launchers.mjs",
+      "portableOverlay": true,
+      "bytes": 6589,
+      "sha256": "ebad356c9f8886fc8fe38a157823b3a9d9f88dc0dc98777f7331e3eb09aa8212"
+    },
+    {
+      "path": "Code/docs/QUICKSTART_COLLEGUE.md",
+      "portableOverlay": true,
+      "bytes": 73,
+      "sha256": "9161e4d4b72f15b7fe262ef2c91624fe8317a761fdd82a5e4d9546b8f7605bf6"
+    },
+    {
+      "path": "Code/docs/API_CONTRACT.md",
+      "portableOverlay": true,
+      "bytes": 10546,
+      "sha256": "e532cc55d137a63146fb0efebd33caa6f3791080ab5547423fcadaca754e9f06"
+    },
+    {
+      "path": "Code/service/deployment-config.mjs",
+      "portableOverlay": true,
+      "bytes": 4477,
+      "sha256": "2f2dd78b11182f7659bf94b43c8f6a7e3baf18b924938a37117fcd3d83516122"
+    },
+    {
+      "path": "Code/src/DeploymentGate.php",
+      "portableOverlay": true,
+      "bytes": 3869,
+      "sha256": "18c769c5cb1494add656a7eae48cd5a7bf1b37b8c6530ebfb68c207a64af44c5"
+    },
+    {
+      "path": "Code/tests/deployment-config.mjs",
+      "portableOverlay": true,
+      "bytes": 3198,
+      "sha256": "6ed4d91e49a9ddfd6acaaf9e07137c403c42c175901589e1a9c1fb339360ca0d"
+    },
+    {
+      "path": "Code/tests/deployment-gate.php",
+      "portableOverlay": true,
+      "bytes": 2764,
+      "sha256": "e6fc6940a1e0260ab82157cde8aefc921a34dfde2e98571d0eefdfcbb8657e0c"
+    },
+    {
+      "path": "Code/docs/SERVER_CONFIGURATION.md",
+      "portableOverlay": true,
+      "bytes": 97,
+      "sha256": "1b958c67c4f396a5f6beb2bcb97f5b79fea9e5b86fbd41a7eab944cdcc769425"
+    },
+    {
+      "path": "Code/service/Install-Server-Startup.ps1",
+      "portableOverlay": true,
+      "bytes": 9754,
+      "sha256": "a8276af96da26522145809f5099d3ae7d9d06b60a2d5b25ef8752ced81f9f759"
+    },
+    {
+      "path": "Code/docs/SERVER_STARTUP_WINDOWS.md",
+      "portableOverlay": true,
+      "bytes": 82,
+      "sha256": "a0f77ce93a892ab72d22be1937a5d6e490cabc4b1f623dc16ca416daa94f5870"
+    },
+    {
+      "path": "Code/tests/server-startup-validation.ps1",
+      "portableOverlay": true,
+      "bytes": 4496,
+      "sha256": "3abb14a5d2e216e87a9d9288bd9cdfc09c7c4c1f7375d3b043b15ed0d14cfa0c"
+    },
+    {
+      "path": "Code/tests/server-startup-static.mjs",
+      "portableOverlay": true,
+      "bytes": 2531,
+      "sha256": "a84ac597af9eb845cbc74ebed1aab2ca99cc257fd2dbbe2e86bf20ca9b70630c"
+    },
+    {
+      "path": "Code/src/RequestProtection.php",
+      "portableOverlay": true,
+      "bytes": 4445,
+      "sha256": "696e39865c68539a54a7981f9e277b0851e57717fc8c42c4849bed7345dc9179"
+    },
+    {
+      "path": "Code/src/SuiteCapacityPolicy.php",
+      "portableOverlay": true,
+      "bytes": 5913,
+      "sha256": "868b93dd3d3b0addc21800d0f1b555d248e0bffd80b56a3f8893a0e51f321e31"
+    },
+    {
+      "path": "Code/tests/request-protection.php",
+      "portableOverlay": true,
+      "bytes": 7290,
+      "sha256": "a9e8732057404ec6f2b13526299f8e72d99d9e55b1b9d7e55f53d4a03ba66e7f"
+    },
+    {
+      "path": "Code/tests/request-protection-worker.php",
+      "portableOverlay": true,
+      "bytes": 840,
+      "sha256": "abc1f1b43d9d7b73c110da6d6c82d1db2f7809949a9a9dfa549427c9cd76aa93"
+    },
+    {
+      "path": "Code/tests/suite-capacity-policy.php",
+      "portableOverlay": true,
+      "bytes": 5752,
+      "sha256": "1e0e32c719ff1ca221fa5597b386735dc8212b958f1a27d1d9be530fddf0508a"
+    },
+    {
+      "path": "Code/tests/deployment-review.php",
+      "portableOverlay": true,
+      "bytes": 3389,
+      "sha256": "7bab38c8b77f18af1fb56e25ff192d712eb124f12595ca1ad11c204688c0f549"
+    },
+    {
+      "path": "Code/tests/deployment-review.mjs",
+      "portableOverlay": true,
+      "bytes": 1791,
+      "sha256": "726b676d3b3af28fb95d35d1cc34204c2becbdf2e379b62d79f4acb4755e47e2"
+    },
+    {
+      "path": "Code/tools/configure-suite-capacity.mjs",
+      "portableOverlay": true,
+      "bytes": 11773,
+      "sha256": "c45ff99fd3f8f80f3c9ff0453bebba0ae3be736e4b97759d8f256b10b77de42f"
+    },
+    {
+      "path": "Code/tools/validate-suite-capacity.php",
+      "portableOverlay": true,
+      "bytes": 850,
+      "sha256": "edd9f5f7749ef0acf7955efbaf500649de23754800dbf047862255246a1ad586"
+    },
+    {
+      "path": "Code/tools/capacity-owner.ps1",
+      "portableOverlay": true,
+      "bytes": 723,
+      "sha256": "e16bc77df511554833bd977af5a3a5952b8a1053638667d58688f883f8129df5"
+    },
+    {
+      "path": "Code/docs/CAPACITY_POLICY.md",
+      "portableOverlay": true,
+      "bytes": 82,
+      "sha256": "731de58ac344bae0ad1d2eccbe4a513fac5b7cb6e0b8655cde67515259b0c49a"
+    },
+    {
+      "path": "Code/tests/configure-suite-capacity.mjs",
+      "portableOverlay": true,
+      "bytes": 12541,
+      "sha256": "21d995c40b69d139d3082f41d68457b462946ef82cab723badc3fb9ad38caec8"
+    },
+    {
+      "path": "Code/tests/storage-recovery.mjs",
+      "portableOverlay": true,
+      "bytes": 11824,
+      "sha256": "c09f258d555ba9bc6f54de47746c2ff78401d07388759a5fce788e038a48bdd6"
+    },
+    {
+      "path": "Code/tests/storage-recovery.php",
+      "portableOverlay": true,
+      "bytes": 13382,
+      "sha256": "2c572ac2e3f0575d5a2dd21622cac84df59b7758472e308e9855fcd702523dea"
+    },
+    {
+      "path": "Code/demo/fixtures.php",
+      "portableOverlay": true,
+      "bytes": 2302,
+      "sha256": "7b719f0aede4fe447e5bfbd2d6f5d053600b4710b1eb9573f6ee59f93ac174ad"
+    },
+    {
+      "path": "Code/tests/unit.php",
+      "portableOverlay": true,
+      "bytes": 16984,
+      "sha256": "bfcdacebc201ddaebf05dbbd2f54c2ee0cf65eeec681bae7bdb4b5a7df4ec7de"
+    },
+    {
+      "path": "Code/tests/eai-current-vehicle-signals.php",
+      "portableOverlay": true,
+      "bytes": 14287,
+      "sha256": "89e227294d9150d9280ec863db9dc7e155d36e392f8277232a391d8b4297d5f5"
+    },
+    {
+      "path": "Code/tests/eai-suite.php",
+      "portableOverlay": true,
+      "bytes": 6278,
+      "sha256": "4801af56ae6cb1b80cd51c166fcd95ce465e31f02dadd1b99d84519c5ec70ec0"
+    },
+    {
+      "path": "Code/tests/suite-api-policy.php",
+      "portableOverlay": true,
+      "bytes": 7216,
+      "sha256": "03c7a3e9605b8261b70aaf0f6322716e8153c0a06ebdaa741da7cb86d976a175"
+    },
+    {
+      "path": "Code/tests/legacy-vehicle-counter-policy.php",
+      "portableOverlay": true,
+      "bytes": 3703,
+      "sha256": "65456ce62b550d8364e6bc167b8e6c702e0551cee4abc6597cb3ff7a2876f7a1"
+    },
+    {
+      "path": "Code/tests/suite-transport-policy.php",
+      "portableOverlay": true,
+      "bytes": 3716,
+      "sha256": "5d1b8461da0844939087468050f52e33479e10587ae2eb07ddf9b0be8b709627"
+    },
+    {
+      "path": "Code/tests/suite-history-policy.php",
+      "portableOverlay": true,
+      "bytes": 3433,
+      "sha256": "efa156809d309ef3fe6858c4b1ef2d070aaba637d8000cf68469ded2b177f4d7"
+    },
+    {
+      "path": "Code/tests/json-integrity.php",
+      "portableOverlay": true,
+      "bytes": 10671,
+      "sha256": "8f7adcc00ee13fa7a96660242b3531881328c7608e6b9f37558232011522e069"
+    },
+    {
+      "path": "Code/tests/recovery-profile.fictitious.json",
+      "portableOverlay": true,
+      "bytes": 3297,
+      "sha256": "85c731d096d9ac7a971f604be5a0260fe8b05d6a121baf8b5a748d7046402bee"
+    },
+    {
+      "path": "Database/suite_live.sql",
+      "portableOverlay": true,
+      "bytes": 2327,
+      "sha256": "b4f0d229e0b0b7f1e8ff3e23a37d1d12c20f36987b67621ae9737d8497d42846"
+    },
+    {
+      "path": "Licences/php56-LICENSE",
+      "portableOverlay": true,
+      "bytes": 3218,
+      "sha256": "fa5de16a10912b2f6ab46d07240412e19d757b1581b2ab2e90772fb45c8aff7d"
+    },
+    {
+      "path": "Licences/php56-ZEND_LICENSE",
+      "portableOverlay": true,
+      "bytes": 2815,
+      "sha256": "8d286e86ef7c19b210050eac33c97e0a43db161b06bdd1fc4f5afefd859cdbb2"
+    },
+    {
+      "path": "Licences/DOWNLOADS.json",
+      "portableOverlay": true,
+      "bytes": 1773,
+      "sha256": "ef109a5ce9f2a11b891110dfbbe40edc1f61843a0c3d2ec5ea53953d97de2640"
+    },
+    {
+      "path": "Code/tools/portable.mjs",
+      "portableOverlay": true,
+      "bytes": 10063,
+      "sha256": "4e97fa55d91d3513988d9b9c15dfbb506ae76bfdc179133e433ebaa890b24933"
+    },
+    {
+      "path": "Tests/recette-portable.mjs",
+      "portableOverlay": true,
+      "bytes": 13153,
+      "sha256": "329929cbca37ef06caa5c2ae5cb20f4a06e39ae6acf5e7f7359b678a602a07d3"
+    },
+    {
+      "path": "Tests/contract-http.mjs",
+      "portableOverlay": true,
+      "bytes": 4839,
+      "sha256": "db4f256b88107d7cd1c0b6d2732f8169c5ee1a8a087d57d2097bf7bd85967c10"
+    },
+    {
+      "path": "Licences/NOTICE.md",
+      "portableOverlay": true,
+      "bytes": 2011,
+      "sha256": "853b6af8781eef115061bad6197d2ffcd5543fc3cb2c123f88ed978ad055fcb1"
+    },
+    {
+      "path": "Configuration-exemple/recette.json",
+      "portableOverlay": true,
+      "bytes": 319,
+      "sha256": "22ae0ed276dee74da0542b9e67e6966ff20a666160f2338aaf18500ef8c5fe7b"
+    },
+    {
+      "path": "Documentation/INSTALLATION.md",
+      "portableOverlay": true,
+      "bytes": 10024,
+      "sha256": "940ec5d5ec34b6ae21adb2be70b649bbb5402eb7caca1fd2a62c045190843e10"
+    },
+    {
+      "path": "Documentation/CLIENT_ONBOARDING.md",
+      "portableOverlay": true,
+      "bytes": 8673,
+      "sha256": "e96ebe5297ba889b21ca7a3e7feb664e87fef4d916ddeecf4651d3914322cdfa"
+    },
+    {
+      "path": "Documentation/API_CONTRACT.md",
+      "portableOverlay": true,
+      "bytes": 10546,
+      "sha256": "e532cc55d137a63146fb0efebd33caa6f3791080ab5547423fcadaca754e9f06"
+    },
+    {
+      "path": "Documentation/TECHNICAL_WALKTHROUGH.md",
+      "portableOverlay": true,
+      "bytes": 6992,
+      "sha256": "cf6d19ccbe8e0cfe6a26f6dc212cafc33178c3b2b7a64aa932dda0bc5b839081"
+    },
+    {
+      "path": "Documentation/TEST_RESULTS.md",
+      "portableOverlay": true,
+      "bytes": 9556,
+      "sha256": "628b3f133df6743bcd17731b8bfe4597d23039f59e9da4cc34e22ce743c28b3e"
+    },
+    {
+      "path": "Documentation/PROJECT_STATUS.md",
+      "portableOverlay": true,
+      "bytes": 4168,
+      "sha256": "ab2d37d3e0c4b07acea86a33d78d47ad9426f9964695bc0eff4783553bfa3f4d"
+    },
+    {
+      "path": "Documentation/SERVER_CONFIGURATION.md",
+      "portableOverlay": true,
+      "bytes": 3015,
+      "sha256": "98a5b6bb52ac2d0576109bc485d0997b724a40e1e304f9683fba8508ba304336"
+    },
+    {
+      "path": "Documentation/WINDOWS_STARTUP.md",
+      "portableOverlay": true,
+      "bytes": 4103,
+      "sha256": "cc79530193771175473cae813f7291946210b1c82c6720a4ef120e7d249e8f57"
+    },
+    {
+      "path": "Documentation/CAPACITY_POLICY.md",
+      "portableOverlay": true,
+      "bytes": 3981,
+      "sha256": "182c919ed16efd68a1f2229f3d03dd9288a41d6366478ebd578f777858b529b6"
+    },
+    {
+      "path": "Installation/01-Install.cmd",
+      "portableOverlay": true,
+      "bytes": 1216,
+      "sha256": "41710e47943d235e50c5738c94b352bb95d40e28ba8725f4282bd641c55bd9d7"
+    },
+    {
+      "path": "Installation/02-Start.cmd",
+      "portableOverlay": true,
+      "bytes": 1214,
+      "sha256": "70409006ff7af4be4afc0f1a80d6c61efce0dfc59f7589bcc9ebc782f5cb105d"
+    },
+    {
+      "path": "Installation/03-Status.cmd",
+      "portableOverlay": true,
+      "bytes": 1215,
+      "sha256": "304103ff4d0d1f64546af7c1f3b9e9d675098ebb6aaf6e3cd222cf55b9f2cc09"
+    },
+    {
+      "path": "Installation/04-Add-client.cmd",
+      "portableOverlay": true,
+      "bytes": 1219,
+      "sha256": "99d0827136bb101e8c36dc7eb8e2880c4fd92223e2fdbbe1fa3ecf6f0d8014bb"
+    },
+    {
+      "path": "Installation/05-Test.cmd",
+      "portableOverlay": true,
+      "bytes": 1213,
+      "sha256": "68b715ebb46c95fc63f39998e6f8477ff171316c778b7677ffc8d92d0df6a98a"
+    },
+    {
+      "path": "Installation/06-Stop.cmd",
+      "portableOverlay": true,
+      "bytes": 1213,
+      "sha256": "e11448346cf6f20d570026c8dcc70b881c40398d2aa9a61ef946c2f146b35463"
+    },
+    {
+      "path": "Tests/01-Run-acceptance.cmd",
+      "portableOverlay": true,
+      "bytes": 1213,
+      "sha256": "4c984047e1334e2239fee9f5fef049bce3823edec5d89608b1e87b5cb2b3062c"
+    },
+    {
+      "path": "README.md",
+      "portableOverlay": false,
+      "bytes": 40878,
+      "sha256": "d5b9eb62bc7967c3969bb61c43d964522334d87c75e20aa0f54071bc63418f41"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "portableOverlay": false,
+      "bytes": 1331,
+      "sha256": "3589a8c4ef965010dfe0d3b94bcf448b1afdef719be1fe2e2a6290c7ade5fc88"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "portableOverlay": false,
+      "bytes": 1069,
+      "sha256": "e45f26a1fa03eecf64e0ee2273f2d96243dffd860979054f1dba6b893190f407"
+    },
+    {
+      "path": ".gitignore",
+      "portableOverlay": false,
+      "bytes": 987,
+      "sha256": "0561f3a95ac28cd0a7159e8ea68f089b571991b9e09c2ddfa55a8b66ee6fa627"
+    },
+    {
+      "path": ".gitattributes",
+      "portableOverlay": false,
+      "bytes": 153,
+      "sha256": "8c1c96dba29c7f88c9114b37d046d3fdc495311e91849073bb90a8f4964e507d"
+    },
+    {
+      "path": "Documentation/DEVELOPMENT.md",
+      "portableOverlay": false,
+      "bytes": 4666,
+      "sha256": "ced8e73bd9648d4f3a31c60d8008e554747995c4613d05ee19c0b764fd233070"
+    },
+    {
+      "path": "Documentation/GITHUB_HANDOVER.md",
+      "portableOverlay": false,
+      "bytes": 3464,
+      "sha256": "8d74179f65e3939ca507612b4f407fcc2ffffa485bf5d75d40e0d2e033c13dfd"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "portableOverlay": false,
+      "bytes": 814,
+      "sha256": "895ccf48565701dddd66fa685500a572587381bfc6ebd436a55e23685be46753"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "portableOverlay": false,
+      "bytes": 716,
+      "sha256": "9314583cbe29974839cfe481e1e9a7a1736040d56a93fae5aa8c9afd37a01d67"
+    },
+    {
+      "path": "Tools/verify-source.mjs",
+      "portableOverlay": false,
+      "bytes": 2880,
+      "sha256": "30dedf7d612d3a0701900e2cbc69f2ccfb438cb361785888eb9bef586921c35d"
+    },
+    {
+      "path": "Tools/assemble-test-package.mjs",
+      "portableOverlay": false,
+      "bytes": 5089,
+      "sha256": "0c463192b9378d182968c8c33fb178c3694c124cab3b64adbaf2aac0930188e5"
+    },
+    {
+      "path": "Distribution/portable-base-manifest.json",
+      "portableOverlay": false,
+      "bytes": 82019,
+      "sha256": "c9c779e299d074f12ac580d6811160fbc6dd35f7855c1251d5bfb381c645fbb0"
+    },
+    {
+      "path": "Distribution/portable-asset.json",
+      "portableOverlay": false,
+      "bytes": 265,
+      "sha256": "cb48e3eb9f763d36c1155c86e4424ec9ebc7b8a29ef2925693e9d24e87d1254d"
+    },
+    {
+      "path": "Code/tools/windows-launcher.mjs",
+      "portableOverlay": true,
+      "bytes": 7871,
+      "sha256": "30e4a732aed9fd1c69f2fb0a84e790ed3dae52531e3f6c04b0bf3ef5cad5d598"
+    },
+    {
+      "path": "Tests/launcher-location.mjs",
+      "portableOverlay": true,
+      "bytes": 5090,
+      "sha256": "07eefaeb484708915bf53c439092d93ef9f73a16e94e983cf4bf0527be977842"
+    },
+    {
+      "path": "Code/src/SnapshotReadPolicy.php",
+      "portableOverlay": true,
+      "bytes": 1292,
+      "sha256": "fb07ac04183e9d5d6cd875085c5bf502da5373601ab88dbf85ef2e5310ab492a"
+    },
+    {
+      "path": "Code/service/collection-health.mjs",
+      "portableOverlay": true,
+      "bytes": 816,
+      "sha256": "cb4738290def78fcf5798483e7d6b1ea844ce0d53570eb45f6b3ed8ee6a3d22f"
+    },
+    {
+      "path": "Code/tools/recovery-policy.mjs",
+      "portableOverlay": true,
+      "bytes": 1988,
+      "sha256": "ae9f97e946d86828e7c9eb0ed050ba5764b03dd6810bbf2235920b5aff9edfec"
+    },
+    {
+      "path": "Code/tools/recover-local-sync.mjs",
+      "portableOverlay": true,
+      "bytes": 8682,
+      "sha256": "158fa35d3a0c0de4d201519b27dc887d35f3395603927d455e0523ad30fe4621"
+    },
+    {
+      "path": "Code/tools/update-local.mjs",
+      "portableOverlay": true,
+      "bytes": 10102,
+      "sha256": "a3f0ba7920c2b61ced5cb17f7fb3fa4740c80c5934c7814c5a2e80456a06a3b4"
+    },
+    {
+      "path": "Code/tests/sync-outage.php",
+      "portableOverlay": true,
+      "bytes": 7016,
+      "sha256": "87d4490c0347b53b8cad089fdd2ed8997a904238a9c589918bad94dd25ad775e"
+    },
+    {
+      "path": "Code/tests/collection-health.mjs",
+      "portableOverlay": true,
+      "bytes": 1713,
+      "sha256": "9bb7d7a4204f6b99a82439fb73730f3640361e8def56f68331da237c4db35e7d"
+    },
+    {
+      "path": "Code/tests/recovery-policy.mjs",
+      "portableOverlay": true,
+      "bytes": 1939,
+      "sha256": "5594434d39a2b3834e31d911b206f9639db8c594c837db8369813ec8f3098746"
+    },
+    {
+      "path": "Code/tests/outage-sql-fixture.php",
+      "portableOverlay": true,
+      "bytes": 1581,
+      "sha256": "2081b5e2780bbc7a28bce83f2eac11a553f589177a3fc5c6b038d5e7cca7e282"
+    },
+    {
+      "path": "Code/tests/outage-integration.mjs",
+      "portableOverlay": true,
+      "bytes": 6405,
+      "sha256": "77b61f013fdfa0411b57bc5e2c8f947ce68c2993786c44bbc350760f3ed66a12"
+    },
+    {
+      "path": "Installation/07-Recover-sync.cmd",
+      "portableOverlay": true,
+      "bytes": 776,
+      "sha256": "67b38f57ca27ffdc540e187b1afe36706bba27f9d91a994bdf23a667a64b32bd"
+    },
+    {
+      "path": "Installation/08-Update-existing.cmd",
+      "portableOverlay": true,
+      "bytes": 768,
+      "sha256": "787378473a709d0194acce35546edd04573d428763128fac3f751f50933a0341"
+    },
+    {
+      "path": "Documentation/OUTAGE_RECOVERY.md",
+      "portableOverlay": true,
+      "bytes": 6006,
+      "sha256": "a19c835a331bb641ee84dade4074b9c043ca0b84179539b59c24471df588cf4b"
+    },
+    {
+      "path": "Code/tests/recovery-local-integration.mjs",
+      "portableOverlay": true,
+      "bytes": 3932,
+      "sha256": "3e35029cf06035bef56340a6b54497c52294d9c66992aa25e8875ce301b6e9cf"
+    },
+    {
+      "path": "Code/tests/vehicle-state-ties.php",
+      "portableOverlay": true,
+      "bytes": 4265,
+      "sha256": "a5cb4f812eb6fa47aa6909bb715eb2fa6296b73ea2e40b776f90e133167e8697"
+    },
+    {
+      "path": "Code/tests/sync-replay-fixture.php",
+      "portableOverlay": true,
+      "bytes": 3101,
+      "sha256": "67082696ba369dda3e73b145a15f83f65b33d1ec588c058ce3abc16d08f4077b"
+    },
+    {
+      "path": "Code/tests/sync-replay-integration.mjs",
+      "portableOverlay": true,
+      "bytes": 7102,
+      "sha256": "aa0f43343d732cb9d7d0fa60988f568541c88a20dec39c52fe6b6cb2df3a30b5"
+    },
+    {
+      "path": "Code/src/EaiCursorState.php",
+      "portableOverlay": true,
+      "bytes": 2135,
+      "sha256": "c3012782c623ecd282f1ad481fa09b041e0aeb3b3ce2860dc1de25abd2185667"
+    },
+    {
+      "path": "Code/tests/patricia-compatibility.php",
+      "portableOverlay": true,
+      "bytes": 3598,
+      "sha256": "fc45a84b708551418ec8d54a7ee0ce724497b34eafe668a2348708cb1acca247"
+    },
+    {
+      "path": "Code/tests/cursor-replay-sql.php",
+      "portableOverlay": true,
+      "bytes": 8462,
+      "sha256": "5bfb396442e515eed8de231498f3b111de4eefaa28edcca1e541f3ef409514a5"
+    },
+    {
+      "path": "Documentation/CONTRACT_REVIEW.md",
+      "portableOverlay": true,
+      "bytes": 4713,
+      "sha256": "d1f0734c5e9b47436537ca0f271881725df9cbde9996837b6d2b60a84c232433"
+    },
+    {
+      "path": "Documentation/COMPANY_TEST.md",
+      "portableOverlay": true,
+      "bytes": 7774,
+      "sha256": "fe5f5c282dc8e3e79d9b4e0a760208ecefdcd0a251682262c6733bcd035f75dd"
+    }
+  ],
+  "productionReady": false
+}

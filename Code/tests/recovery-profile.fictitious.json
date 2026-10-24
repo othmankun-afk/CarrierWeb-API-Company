@@ -1,0 +1,106 @@
+{
+  "endpoint": "vehicles",
+  "customer": "synthetic_recovery",
+  "wireContractMode": "carrierweb-legacy",
+  "status": "EAI_SOURCE_POLICY_WITH_APPROVED_UNKNOWN_MARKERS",
+  "productionReady": false,
+  "legacyProviderParity": false,
+  "ruleOverrides": {
+    "DivisionDesc": {
+      "source": "divisions",
+      "column": "Description",
+      "operation": "text",
+      "missingKeyValues": {
+        "id:0": "-"
+      }
+    },
+    "Location": {
+      "source": "vehicles",
+      "column": "LastLocation",
+      "operation": "text"
+    },
+    "Door": {
+      "source": "eai_signals",
+      "operation": "eai_current_signal",
+      "policy": "documented-eai-v1",
+      "tenant": "synthetic_recovery",
+      "selection": "unique-physical-source",
+      "anchor": "capturedUtc",
+      "maxAgeSeconds": null,
+      "unknownPolicy": "legacy-markers-v1"
+    },
+    "Temperature": {
+      "source": "eai_signals",
+      "operation": "eai_current_signal",
+      "policy": "documented-eai-v1",
+      "tenant": "synthetic_recovery",
+      "selection": "unique-physical-source",
+      "anchor": "capturedUtc",
+      "maxAgeSeconds": null,
+      "unknownPolicy": "legacy-markers-v1"
+    },
+    "Battery": {
+      "source": "eai_signals",
+      "operation": "eai_current_signal",
+      "policy": "documented-eai-v1",
+      "tenant": "synthetic_recovery",
+      "selection": "unique-physical-source",
+      "anchor": "capturedUtc",
+      "maxAgeSeconds": null,
+      "unknownPolicy": "legacy-markers-v1"
+    },
+    "Engine": {
+      "source": "eai_signals",
+      "operation": "eai_current_signal",
+      "policy": "documented-eai-v1",
+      "tenant": "synthetic_recovery",
+      "selection": "unique-physical-source",
+      "anchor": "capturedUtc",
+      "maxAgeSeconds": null,
+      "unknownPolicy": "legacy-markers-v1"
+    },
+    "Plugged": {
+      "source": "eai_signals",
+      "operation": "eai_current_signal",
+      "policy": "documented-eai-v1",
+      "tenant": "synthetic_recovery",
+      "selection": "unique-physical-source",
+      "anchor": "capturedUtc",
+      "maxAgeSeconds": null,
+      "unknownPolicy": "legacy-markers-v1"
+    },
+    "PluggedType": {
+      "source": "eai_signals",
+      "operation": "eai_current_signal",
+      "policy": "documented-eai-v1",
+      "tenant": "synthetic_recovery",
+      "selection": "unique-physical-source",
+      "anchor": "capturedUtc",
+      "maxAgeSeconds": null,
+      "unknownPolicy": "legacy-markers-v1"
+    },
+    "EngineRunningTime": {
+      "source": "contract_compatibility",
+      "operation": "legacy_vehicle_counter",
+      "policy": "approved-compatibility-zero-empty-v1",
+      "tenant": "synthetic_recovery"
+    },
+    "EngineRunningTimeHHMM": {
+      "source": "contract_compatibility",
+      "operation": "legacy_vehicle_counter",
+      "policy": "approved-compatibility-zero-empty-v1",
+      "tenant": "synthetic_recovery"
+    }
+  },
+  "observations": {
+    "scope": {
+      "mode": "eai-account"
+    },
+    "legacyEvidenceAvailable": false
+  },
+  "counterPolicyDecision": "Vehicle runtime fields use compatibility constants 0 and empty text; measured CANbus counters remain separate",
+  "unknownMarkerDecision": {
+    "configured": true,
+    "scope": "Missing, ambiguous or unavailable measurements use the configured unknown markers"
+  }
+}
